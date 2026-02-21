@@ -1,0 +1,372 @@
+[00:00] You might have heard that open video is
+[00:02] here and it's the first time an actual
+[00:04] open weights release shows up with the
+[00:06] whole stack. The model weights, the
+[00:08] training code, and it generates video
+[00:10] with synchronized audio. And the part I
+[00:12] care about, I'm running it locally on
+[00:15] consumer GPUs. We're going to find out
+[00:17] if local video has finally crossed the
+[00:19] line from cool to usable. Because if
+[00:22] this is real, it changes the workflow.
+[00:24] synced sound, local control, and
+[00:27] hardware you can actually buy. Well,
+[00:31] they should find it. Now, I'm talking
+[00:33] about LTX2. You might have heard of
+[00:35] this, which is an open-source and open
+[00:37] weights model that you can download and
+[00:40] use for free right now. There are a few
+[00:42] ways to run it. You can run it locally.
+[00:43] I'm using Comfy UI here, but there's
+[00:45] other ways as well. Whoa. You could also
+[00:48] run it through LTX Studio in the cloud.
+[00:51] That's where if you don't have a GPU,
+[00:53] you can use their servers to run it and
+[00:55] generate videos for you. Now, here I've
+[00:56] got an Nvidia RTX 5090, which is pretty
+[00:59] toasty right now. And that's got 32 GB
+[01:02] of VRAM. When you're running large
+[01:04] language models or video generation
+[01:06] models, they typically need a lot of
+[01:08] VRAM. So, this one has 32, which is a
+[01:10] pretty decent amount. I also want to try
+[01:12] it on a couple of other GPUs with
+[01:14] different amounts of VRAM.
+[01:16] >> These markings aren't just random. It's
+[01:18] a warning. That is crazy that you can
+[01:21] get something like that now locally
+[01:24] because Sora 2 and V3 until now have
+[01:27] been the leaders in being able to
+[01:29] generate videos and really short videos
+[01:31] with sound. LTX2 is the first open
+[01:33] source model where you can do this
+[01:35] locally and it does a fantastic job at
+[01:38] doing that. Now, of course, you don't
+[01:39] need to generate sound if you don't want
+[01:41] to. You can do straight up video. But
+[01:43] while LTX does audio and video syncing
+[01:47] pretty well, it's not the only game in
+[01:48] town. So, I want to compare it to
+[01:50] another one called WAN 2.2.
+[01:52] >> We have to leave. Uncle Richie has
+[01:54] started his era.
+[01:55] >> It's not an era, Nina. It's a phase.
+[01:57] It's a phase. He said he was reinventing
+[01:59] himself. He's recruiting strangers.
+[02:03] >> We have to leave. Uncle,
+[02:04] >> this is a good one. By the way, I
+[02:05] generated these prompts using Chad GPT.
+[02:08] >> Okay, it happened. Mom's gone full
+[02:10] feral.
+[02:10] >> No, she's not feral. She's exploring a
+[02:12] >> No, I understand. She's not even making
+[02:14] coffee anymore. Come on, bite. Bite
+[02:15] dinner.
+[02:18] Mom's gone feral. But look at how well
+[02:20] the lips synchronize.
+[02:22] >> Okay, it happened. Mom's gone full
+[02:24] feral.
+[02:24] >> No, she's not feral.
+[02:25] >> There's three characters there, and they
+[02:27] all have their own parts. This is pretty
+[02:30] cool. There's the prompt, if you're
+[02:31] curious, to reproduce this yourself.
+[02:33] Now, if you zoom in, yeah, it's not
+[02:36] perfect, but I haven't found any video
+[02:39] generation model that's perfect yet, and
+[02:42] they look good enough when they're in
+[02:44] HD. So, that's 1280 by 720. Now, what
+[02:47] this does really well also is speed of
+[02:49] generation. I've been playing around
+[02:51] with this. This is generating a 10se
+[02:53] secondond video. 10 seconds, which is
+[02:56] pretty decent. I'm going to try to push
+[02:57] it a little bit more. Let's go with 361
+[03:00] frames. So, it's like a 24 frame per
+[03:03] second video. Frame count must be
+[03:05] divisible by 8 + 1. I don't know why.
+[03:07] And let's run this. So, I'm looking at a
+[03:09] couple things here. One is the GPU
+[03:12] spinning. Whoa. Yeah, it's getting
+[03:14] pretty loud in here.
+[03:16] That's some serious work being done
+[03:18] right there. So, that's a 15-second
+[03:20] video, an HD video, which is 1280 by
+[03:23] 720, and to see if it can do a whole
+[03:26] video that's coherent without breaking
+[03:27] up. Also, how long is it going to take?
+[03:29] Now, this usually takes less time to
+[03:31] create a whole video than Open AI's Chad
+[03:35] GPT takes to create an image. I may not
+[03:37] be 100% right on that, but it takes a
+[03:40] while to create an image in Chad GPT.
+[03:42] It's about to get real toasty in here.
+[03:44] It took 115 seconds. That's less than 2
+[03:47] minutes to generate this. Let's see if
+[03:49] we have anything funny.
+[03:50] >> Okay, it happened. Mom's gone full
+[03:52] feral.
+[03:52] >> No, she's not feral. She's exploring a
+[03:54] hobby.
+[03:54] >> You don't understand. She's not even
+[03:57] making coffee anymore. Come on. Bite.
+[04:00] Bite. DINER.
+[04:04] >> WHAT? OKAY, that was a little bit weird,
+[04:07] but the start of it was fantastic. It
+[04:10] looks like a TV show from the 80s or
+[04:12] '9s, but still. That's when they had HD
+[04:15] TV. Mom looks a little bit small there,
+[04:18] but I'm not judging. She gets up, then
+[04:20] she starts running, being all crazy. I
+[04:23] think overall this is pretty impressive,
+[04:24] and it is a 15-second video. Now, if you
+[04:27] check out LTX2 on hugging face, you'll
+[04:30] see a couple of different models
+[04:31] available there. This that we were
+[04:33] running just now is a 19 billion
+[04:36] parameter model, and it's the FP8
+[04:38] quantization. So, it runs really well on
+[04:41] Nvidia processors. There's also the FP4
+[04:44] version, which is smaller. As you can
+[04:46] see, it's about 7 GB smaller, and it's
+[04:48] supposed to be a little bit faster. And
+[04:50] then there's the full version, which is
+[04:52] 43 GB. I actually was able to run the
+[04:54] full version on the 5090, but I did not
+[04:57] see huge improvements cuz I'd expect
+[04:59] higher quality, but I didn't see that.
+[05:01] So, Comfy UI allows you to change these
+[05:03] things pretty easily. Instead of FP8,
+[05:06] let's go with that one. And this is
+[05:08] probably going to complain about memory,
+[05:10] but let's try it out. This is the
+[05:11] original unquantized BF-16 version, by
+[05:14] the way, folks. That took 160 seconds,
+[05:17] and it ran the full BF-16 version, which
+[05:19] is 43 GB model. That's pretty cool. Not
+[05:23] sure where it fit it, but somehow it
+[05:25] worked. Let's see if this is any
+[05:26] different.
+[05:26] >> Okay, it happened. Mom's gone full
+[05:28] feral.
+[05:29] >> No, she's not feral. She's exploring a
+[05:30] hobby.
+[05:31] >> You don't understand. She's not even
+[05:33] making coffee anymore. Come on. Bite.
+[05:36] Bite.
+[05:38] diner.
+[05:42] >> They had the little comedy music at the
+[05:44] end. So, I didn't think that that was
+[05:45] much better quality than the regular FP8
+[05:48] version. I want to push it a little bit
+[05:50] more. So, I'm going to change the frames
+[05:51] back to 241 for a 10-second video. But
+[05:55] what I want to do is do a 1920x 1080.
+[05:58] So, full HD. I don't know why the mom
+[06:01] keeps yelling diner instead of dinner.
+[06:04] Ooh, that's hot. LTX2, by the way, comes
+[06:07] in text to video. It also comes in image
+[06:10] to video, which we're going to test. You
+[06:13] might have seen a little bit of that
+[06:14] already, but here's another version.
+[06:17] This one took a little bit longer
+[06:19] because it is a full HD video. Let's
+[06:22] see.
+[06:22] >> Okay, it happened. Mom's gone full
+[06:23] feral.
+[06:23] >> No, she's not feral. She's exploring a
+[06:25] hobby.
+[06:25] >> You don't understand. She's not even
+[06:27] >> picking his nose. What the heck? Why is
+[06:28] he picking his nose?
+[06:30] >> No, she's not feral. She's exploring a
+[06:31] hobby.
+[06:32] >> You don't understand. She's not even
+[06:33] making coffee anymore. Come on. fight.
+[06:35] >> And who's that?
+[06:36] >> Dinner.
+[06:38] >> Oh,
+[06:39] >> she broke that thing. Seriously, there's
+[06:41] like a random guy just standing there.
+[06:43] It looks good. By the way, that guy
+[06:45] looks a lot like Bob Odenkirk from uh
+[06:48] Breaking Bad. You can tell that this is
+[06:50] full HD. You can see all the details of
+[06:53] things on the counter. The reflections,
+[06:55] the leaves outside, that refrigerator
+[06:57] has way too many things on it. This
+[06:59] model is pretty impressive so far. Now,
+[07:00] there is another model called WAN 2.2.
+[07:04] WAN. That's how you got to say it. WAN.
+[07:07] And that's the last open source model in
+[07:09] the WAN family. Now, does it create
+[07:11] good-looking images? The 14 billion
+[07:13] model. Yeah, it does. Here's an example
+[07:15] of that. I'm going to rerun this right
+[07:17] now. Beautiful young European woman.
+[07:19] This is the default, by the way, the
+[07:21] default prompt that comes with uh with
+[07:24] the template. So, yeah, I decided to
+[07:26] keep it. This is a soundless model.
+[07:30] So, you're just going to get the video
+[07:32] output. So, we're going to compare it to
+[07:33] see how long this takes and how long it
+[07:36] takes to do the same exact prompt using
+[07:38] LTX2. And we'll compare and you can tell
+[07:41] me if you like one better over the other
+[07:42] one. This is still running. The uh only
+[07:45] other time I've tested video models was
+[07:47] uh a few videos ago. And the reason I
+[07:50] don't do it very often is cuz it takes
+[07:52] such a long time. Not that I'm lazy or
+[07:55] anything. Um but LTX2 is really changing
+[07:59] this game. I was able to try out many
+[08:01] different versions of this weird weird
+[08:03] animation for the beginning of this
+[08:05] video. Here's another weird one. GPUs.
+[08:08] Ah,
+[08:11] but I was able to iterate over that much
+[08:13] much faster and that's kind of important
+[08:15] to be able to do that. Okay, 294 seconds
+[08:20] is 4.9 minutes.
+[08:23] Not that long, but still. This was also
+[08:26] a 16 frame per second video. So, you'll
+[08:29] be able to tell that now. It is good
+[08:31] looking and not just the subject matter,
+[08:33] but the video it looks good. It It looks
+[08:36] like, you know, hair and smiling and it
+[08:39] looks like a realistic video. It looks
+[08:41] good. 294 seconds, though. Yeah. No
+[08:45] audio. M. Let's try the exact same
+[08:48] prompt with LTX2. By the way, I did
+[08:51] already run this and this is the result.
+[08:53] I'm going to run it one more time cuz I
+[08:55] lost the timing on that one. And they're
+[08:57] both 5-second videos. Okay. 50 seconds,
+[09:01] less than a minute. We got the same
+[09:02] lady, though. Interesting. Oh, I didn't
+[09:04] change my uh my seed at all. So, let's
+[09:07] see that. Yep. Looks good. 50 seconds.
+[09:12] Looks pretty realistic to me. Which one
+[09:14] do you think was better? This one or
+[09:16] this one? Let me know in the comments
+[09:17] down below. Now, these are all
+[09:19] texttovideo models that we've been
+[09:21] testing so far. Let's try a image to
+[09:24] video. Let's take a a famous scene. And
+[09:27] if we go to the LTX documentation, they
+[09:29] have a prompting guide here. So, I'm
+[09:31] going to just copy that. Let's go to
+[09:33] Chad GPT. Based on the following image
+[09:36] and the prompting guide that I'm going
+[09:38] to paste in, give me a good prompt where
+[09:42] the character says something funny.
+[09:48] Let's grab that image. Paste in our
+[09:50] prompt. I don't know what it says, but
+[09:52] we'll see. I want to make it a slightly
+[09:54] longer version. So, 241 frames and let's
+[09:58] go. 76 seconds. Let's see what we got
+[10:01] here.
+[10:01] >> I'm wearing these sunglasses to look
+[10:03] intimidating, but honestly, they're
+[10:05] mostly so you can't see my eyes
+[10:06] buffering.
+[10:09] >> What? So, the consistency is actually
+[10:12] pretty good. And the fact that we know
+[10:14] he's a Terminator, he could have some
+[10:15] skin imperfections, right? The glasses
+[10:17] are very well done. The transparency is
+[10:20] there. They look pretty realistic. his
+[10:22] skin becomes progressively worse as time
+[10:24] goes on. But but overall it looks pretty
+[10:28] decent and that it's doing audio
+[10:30] synchronized audio is just it's just
+[10:32] fantastic. Also kind of creepy that he's
+[10:35] talking about his eyes buffering.
+[10:36] There's some kind of psychic connection
+[10:38] going on here between the different AIs
+[10:41] that know that this is a Terminator.
+[10:43] Now, can this work on a 5080 which has a
+[10:46] lot less VRAM, 24 GB? Let's see.
+[10:53] Keeping all the settings exactly the
+[10:55] same. Doing the exact same clip. I'm
+[10:57] keeping the 241 frames there because
+[11:00] this is a 10-second video, which is
+[11:02] pretty decent. And the longer the video,
+[11:04] the more demand is on the VRAM. There's
+[11:06] two levers you can tweak to uh take
+[11:08] advantage of the VRAM that's available.
+[11:10] One is the length of the video, and two
+[11:12] is the resolution of the video. So,
+[11:14] right now, I kept the length of the
+[11:15] video the same and the resolution at HD
+[11:18] to see if this card with less VRAM can
+[11:20] handle that. This GPU is a lot quieter
+[11:22] than the previous one. 168 seconds,
+[11:25] which is quite a bit longer, but let's
+[11:26] see what we get.
+[11:27] >> I'm wearing these sunglasses to look
+[11:29] intimidating, but honestly, they're
+[11:31] mostly so you can't see my eyes
+[11:32] buffering.
+[11:34] >> Creepy. Way creepier. So, it took a
+[11:37] little bit longer, but it was able to
+[11:39] actually do it on a 5080.
+[11:43] 5060.
+[11:45] If that works, I'm going to be pretty
+[11:48] amazed.
+[11:50] This GPU only has 16 gigs of VRAM. All
+[11:53] right, that's a 5060 Ti. Sorry, I
+[11:56] misspoke. I think we need to have them
+[11:58] say something else, but other than that,
+[12:00] we'll keep the settings the same. Well,
+[12:01] that took a little bit longer. 325
+[12:04] seconds. And by the way, not only is
+[12:06] each one of these GPUs that I tried
+[12:07] smaller and smaller VRAM, but they also
+[12:10] have less and less memory bandwidth,
+[12:12] which is also contributing to the speed
+[12:15] difference that we seen between the
+[12:16] generations. Let's see what we get.
+[12:19] >> I'm not saying I'm a hero. I'm just
+[12:22] saying the Wi-Fi stopped working right
+[12:24] after I showed up.
+[12:25] >> Why does he look like he's about to
+[12:26] sneeze?
+[12:29] Also, that sounds nothing like Arnold.
+[12:32] Now, besides these full models, which
+[12:33] you can find here in the templates, all
+[12:36] you got to do is search for LTX2. If
+[12:38] you're using Comfy UI, you have image to
+[12:40] video, text to video, Cany to video.
+[12:43] This is from Edge Detection. They also
+[12:45] have these distilled versions which are
+[12:47] less resource inensive. So, you can try
+[12:49] those out as well. And when you're done,
+[12:50] you can use some kind of upscaler to go
+[12:53] through this and give you like a a 4K
+[12:56] 60fps version if you really want to. So,
+[12:59] here's supposedly an upscaled 4K version
+[13:02] of Arnold sneezing. Just a possible
+[13:04] workflow. You can probably also use one
+[13:06] of the comfy tools to do upscaling as
+[13:09] well if you want to. Now, because this
+[13:10] is private and local, you can
+[13:12] essentially do whatever you want for
+[13:15] video generation, and your data images
+[13:18] aren't going to be used to train models
+[13:20] in the future. So, this is pretty cool,
+[13:21] and I'm a big fan of having these run
+[13:23] locally. Now, LTX also has LTX Studio
+[13:26] online which offers a whole bunch of
+[13:28] other things like you can generate the
+[13:30] videos, generate images, storyboards,
+[13:32] video editing. They even have audio to
+[13:34] video which I kind of wish was available
+[13:37] offline as well as a model, but maybe
+[13:39] they'll release it later. I don't know.
+[13:41] So far, pretty impressive model LTX2.
+[13:43] Let me know what your thoughts are about
+[13:45] it and if you've tried it already down
+[13:46] below in the comments. Thanks for
+[13:48] watching and I'll see you next time.

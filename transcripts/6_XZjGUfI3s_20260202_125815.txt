@@ -1,0 +1,659 @@
+[00:00] I was actually pulling in more so 80
+[00:02] hours a work week. And especially with
+[00:04] small businesses, you don't have the
+[00:06] luxury of time. You don't really have
+[00:08] the luxury of getting it wrong. And so I
+[00:11] revamped that.
+[00:12] >> That's Ashley Gross, the marketing ops
+[00:14] leader who's not just streamlining
+[00:15] workflows. She's architecting AI systems
+[00:18] that eliminate the work no one wants to
+[00:20] do. From building multi-agent automation
+[00:22] stacks to reducing her own workload by
+[00:25] 60% without sacrificing quality,
+[00:27] Ashley's turning AI into a daily
+[00:30] operating system, not just a distant
+[00:32] strategy. Recognized by Forbes as one of
+[00:34] the highest paid AI consultants. She's
+[00:36] teaching agencies how to do the same one
+[00:39] micro workflow at a time. But how does
+[00:40] she do it?
+[00:41] >> I built 11 agents that now do 80% of my
+[00:44] operational muscles. They are doing all
+[00:46] of the least glamorous, sexy jobs that
+[00:48] you can imagine so that I'm not just
+[00:50] running around like a chicken with my
+[00:51] head cut off as as a solo founder.
+[00:53] >> In this episode, you'll learn how to
+[00:55] automate 20 to 25 hours of weekly busy
+[00:57] work with simple AI workflows you can
+[01:00] set up in one day.
+[01:01] >> All my agents talk to each other. They
+[01:02] are very much built into my organization
+[01:05] charts. Full-time, part-time, maybe some
+[01:06] [music] contractor.
+[01:07] >> How to turn AI agents into your first
+[01:09] full-time digital employee. As a small
+[01:12] business owner, I am losing deals when
+[01:14] I'm sleeping. So, having an AI agent
+[01:16] that not only answers those questions,
+[01:17] but also qualifies those leads and then
+[01:20] going so far as to book that on my
+[01:22] calendar has been the craziest concept
+[01:25] for me.
+[01:26] >> How small businesses can operate like
+[01:27] enterprises using agentic workflows,
+[01:30] automations, and new AI augmented rules.
+[01:33] >> What used to be a milliondoll advantage
+[01:35] is now available for $75 a month.
+[01:42] with your business, you know, you know,
+[01:44] I read you've taken, you know, what used
+[01:47] to be a tasks that you would do and jobs
+[01:50] that taking 40 hours a week are down to
+[01:53] like 15 hours now. What is the craziest
+[01:56] thing that you've seen AI automate
+[02:00] perform either in your business or any
+[02:02] of your clients? This is not the the
+[02:04] craziest one, but I would say the the
+[02:06] most frequent one that I have I started
+[02:10] with myself and my own business and now
+[02:12] I'm recreating for my clients um is the
+[02:16] AI agent that is online all night long
+[02:19] because most chat bots are glorified FAQ
+[02:23] pages. You ask a question, you get an
+[02:25] answer, and then nothing. And so I built
+[02:27] an AI agent and and I built them now for
+[02:29] my clients that actually executes. So,
+[02:32] not only can I sleep, because as a small
+[02:35] business owner, um I am losing deals
+[02:37] when I'm sleeping. So, every minute of
+[02:39] my time that I'm sitting sleeping, like
+[02:41] there is there are deals that I'm
+[02:43] losing. And that's just the reality of
+[02:45] being a small business owner. Um and it
+[02:47] doesn't make sense to have someone hang
+[02:50] out all night long on the computer and
+[02:51] like potentially wait for a question or
+[02:53] like maybe not receive any questions at
+[02:55] all. And so having an AI agent that not
+[02:57] only answers those questions, but also
+[02:59] qualifies those leads that that are
+[03:01] asking those questions to see like are
+[03:03] they just digging around? Um what does
+[03:05] their IP address say? Like what is their
+[03:08] intent in this conversation? and then
+[03:10] going so far as to book that on my
+[03:12] calendar has been the craziest concept
+[03:15] for me because the way that this was
+[03:17] designed is all of my SOPs, all my
+[03:20] SLAs's, pretty much every question that
+[03:21] anyone has ever asked me lives inside of
+[03:24] my Google Drive and Notion. And so I
+[03:28] every time I get asked a new question, I
+[03:29] add to that database. So I already have
+[03:31] a ton of questions, a ton of answers, a
+[03:33] ton of resources. And so what I did was
+[03:35] I connected that to AI and I created a
+[03:38] persona. Uh, I made her incredibly
+[03:40] friendly and I gave her the rules and
+[03:43] parameters that she could only answer
+[03:46] questions from my list of questions and
+[03:49] she could only answer them in the way
+[03:51] that I provided her with documentation
+[03:54] for. And so if you go on my website
+[03:56] after hours and you ask a question in
+[03:59] the chatbot, you knowingly click chat
+[04:01] now. You ask your question and then she
+[04:04] appears and answers them. And then if
+[04:06] you want to have a more fluid
+[04:08] conversation, uh, a synthetic human
+[04:10] interaction, if you will, you can
+[04:12] actually click the dial button and talk
+[04:14] to her. So instead of just typing back
+[04:15] and forth, which we've kind of become
+[04:17] accustomed to hate, you can just jump on
+[04:19] a video call with her and she'll answer
+[04:21] your questions live. And as she's doing
+[04:24] this, she's asking you questions such
+[04:27] as, "Hey, I see that you're interested
+[04:29] in consulting courses and you had a
+[04:31] question about uh how how this works
+[04:33] with Ashley's workshops. who is your
+[04:35] audience that you would like this
+[04:36] workshop to be with? And as they're
+[04:38] answering her in real time, she's
+[04:40] updating my CRM. So, she's creating a
+[04:42] contact, updating the CRM, pulling that
+[04:45] information and enriching it and looking
+[04:46] at signals such as when is their fiscal
+[04:49] year if they're public. Uh, look through
+[04:51] all of their social media platforms that
+[04:53] are public and tell me um what their uh
+[04:56] interpretation of AI is and what their
+[04:58] sentiment is and then show me three
+[04:59] posts that they've posted or reposted
+[05:01] that that link to that sentiment. So,
+[05:04] she's not only answering their questions
+[05:06] in real time, but she's gathering intent
+[05:07] to see, are they just asking? Is this a
+[05:10] middle of the night crusade where
+[05:11] they're just, you know, on the internet
+[05:13] or are they actually interested in
+[05:14] something? And this happens to be the
+[05:16] one moment uh as a business owner, as a
+[05:18] CMO, as a CFO that they get to do some
+[05:21] research. And right now, we need to
+[05:22] answer them and get them on the
+[05:24] calendar. And if so, she offers them uh
+[05:28] to book on my calendarly. And not only
+[05:30] does she say, you know, hey, Ashley's
+[05:33] got availability tomorrow at 2 p.m.
+[05:34] Would you like to book? She'll book it
+[05:36] for them. And that's a much cleaner user
+[05:38] experience than just giving a calendarly
+[05:40] booking because if we got them in the
+[05:42] middle of the night and they actually
+[05:43] are one of our ideal customers, then we
+[05:48] don't want any time to go by and we
+[05:49] don't want to make their journey of
+[05:51] getting to us any more complicated. So,
+[05:53] we don't want to give them a link and
+[05:54] make them click and fill out a form. We
+[05:56] just want them to say yes. And so she's
+[05:58] essentially doing what a sales rep would
+[06:00] do in the middle of the night and giving
+[06:03] them my next availability and almost
+[06:04] kind of saying this is her next
+[06:06] availability. So I hope it works for
+[06:07] you. Does it? If not, I can look at the
+[06:09] next one. But she books that pretty
+[06:10] quick. Now we're creating this FOMO,
+[06:12] this urgency after hours. And if they
+[06:15] say yes, she books them. The enriched
+[06:18] contact information, including the call
+[06:20] transcript of that interaction, is in my
+[06:22] CRM and I have an email. So when I wake
+[06:25] up, it's like I can just debrief myself
+[06:27] on what happened and look forward to
+[06:29] that next call. If you're an agency that
+[06:31] serves local businesses, this is an easy
+[06:33] service to add. Let me show you how
+[06:35] agencies set up an AI receptionist for
+[06:37] clients. Everything starts in one place.
+[06:39] You drop in the details the receptionist
+[06:41] needs to know, services, pricing,
+[06:43] availability, qualifications, and the
+[06:45] questions customers ask every day. Next,
+[06:47] you define how that receptionist should
+[06:49] behave on every call. You control the
+[06:51] greeting, the questions it asks, how it
+[06:53] qualifies leads, and how it closes. So,
+[06:55] it follows your client's exact [music]
+[06:57] process. It can even book appointments
+[06:59] directly into the client's calendar. If
+[07:01] a call needs a human, you can set up
+[07:03] transfers to the right phone lines,
+[07:04] sales support, or the client's front
+[07:06] desk. Then, you connect it to the tools
+[07:08] you already manage for your clients,
+[07:09] your CRM, scheduling links, lead forms,
+[07:12] so every call becomes a complete
+[07:14] workflow, not just a conversation. And
+[07:16] because it's fully connected, the AI can
+[07:18] automatically follow up by text. so no
+[07:20] leads fall through the cracks. This is
+[07:22] how agencies deliver AI call handling at
+[07:25] scale, whether it's for one client or
+[07:27] hundreds. Build an AI receptionist for
+[07:29] your clients with Vendasta.
+[07:31] >> To look under the hood with, you know,
+[07:33] some of the other parts of your your
+[07:35] enterprise, where do you have other
+[07:36] little gremlins working and what types
+[07:38] of jobs are they doing?
+[07:39] >> They are um very much built into my
+[07:42] organization chart. So, whenever you're
+[07:44] talking about preai times, if you will,
+[07:47] if we can even remember what that was
+[07:48] like, the way you structure your
+[07:50] employees is, you know, full-time,
+[07:52] part-time, maybe some contractors, maybe
+[07:54] some freelance workers. That's no
+[07:55] different than how you structure AI
+[07:58] agents, right? Like your ability as a
+[08:00] leader to decide how many hours and what
+[08:03] type of employees should be in which
+[08:04] role uh to enhance their own abilities,
+[08:07] like that is a leadership skill set. And
+[08:08] so I'm using AI agents to do everything
+[08:11] that I don't want my humans focusing on.
+[08:13] So they're doing things like uh going
+[08:16] through every single contract that we've
+[08:18] ever had, making sure that if there's um
+[08:21] old branding or old addresses, phone
+[08:23] numbers, that we have like an audit
+[08:25] running so that we know when to update,
+[08:28] you know, our NDAs and our contracts.
+[08:30] They're doing things like cleaning up
+[08:32] our CRM, making sure that there's not
+[08:34] duplicates. Uh anytime that we are
+[08:38] getting ready to have uh an upsell with
+[08:42] a client, like anytime there's a
+[08:43] contract that's about to be up for
+[08:45] renewal, uh there's an agent
+[08:46] specifically that the whole entire year
+[08:49] leading up to that renewal, every email,
+[08:52] every call transcript, every contract,
+[08:55] every agreement, it's got like a
+[08:56] relationship database on every single
+[08:58] client we have down to a person at that
+[09:00] organization so that we know like six
+[09:02] months before the renewal what our
+[09:04] talking points are, how to actually get
+[09:06] that renewal, if we can upsell, what
+[09:08] does that look like, how do we talk to
+[09:10] these folks? Um, and then also not just
+[09:12] like how to do it, but what we've done
+[09:14] in the past. And so my favorite thing
+[09:16] about this agent is it will site all of
+[09:18] the different calls where if it's the
+[09:20] CFO who's the main stakeholder, it will
+[09:22] pull the last year's worth of calls
+[09:24] where he had a really good uh experience
+[09:26] with us or he had really great
+[09:27] sentiments or he was paying us a
+[09:29] compliment about something that we did.
+[09:31] so that not only are we getting our own
+[09:33] answer and we're proactively having
+[09:36] these conversations and managing
+[09:38] relationships better, but we don't have
+[09:39] to be as reactive, right? Like there's
+[09:41] never a a surprise that happens to this
+[09:43] point in time where um someone's not
+[09:46] happy, right? Because like we have a
+[09:47] happiness meter and that's one of the AI
+[09:49] agents jobs is to have a happiness meter
+[09:51] and to keep a check on that because I
+[09:53] don't want my humans to be stressing out
+[09:55] about every email and reading in between
+[09:56] the lines and saying well George the CFO
+[09:59] usually sends me these nice Friday
+[10:00] emails but today his was short. Does he
+[10:02] hate us? Is he going to cancel our
+[10:03] contract? Like that's just not a good
+[10:05] productive use of my team's time. And a
+[10:08] lot of the times like we're emotional
+[10:10] and so we're not going to commit this
+[10:11] logistically and factually. And so I
+[10:13] would rather not be spending my
+[10:14] employees time there. I would rather be
+[10:17] spending their time at inerson events
+[10:18] nurturing those relationships and taking
+[10:21] George golfing because that's his
+[10:23] favorite hobby and we got to learn that
+[10:24] about him. This agent is the
+[10:27] interconnected
+[10:29] um agent that has access to every piece
+[10:31] of my text stack but also it has access
+[10:34] to every email I have. And so it can
+[10:37] look at where I'm going to be a year
+[10:40] before and and it can look at my
+[10:42] schedule, what I've got going on, my
+[10:44] different opportunities that aren't
+[10:45] necessarily about AI workforce academy
+[10:47] or AI workforce alliance. And it can
+[10:49] take all of that and it can form a
+[10:51] comprehensive plan so that if Ashley as
+[10:54] herself is going to be speaking at this
+[10:55] conference in Vegas in February, then
+[10:58] what are the opportunities for the
+[10:59] academy? What are the opportunities for
+[11:00] the alliance? Who are people that Ashley
+[11:02] said she wanted to network with before?
+[11:04] or who are clients that we currently
+[11:06] have that are out there that I could
+[11:07] potentially have a visit with and check
+[11:09] up on. So, it really acts as my second
+[11:11] brain so that I'm not just running
+[11:12] around like a chicken with my head cut
+[11:14] off as as a solo founder. It's really
+[11:16] able to try to find the the strategy
+[11:19] that I talk about and and add to all the
+[11:22] time, but optimize my my productivity
+[11:25] even more because there can always be
+[11:26] more. I saw here that you've got a a CFO
+[11:30] uh who's an AI and uh so I wanted to ask
+[11:33] you number one, how did they compare?
+[11:35] How does it compare to flesh and blood
+[11:39] CFOs? And did you give it a happy
+[11:42] personality? I made the CFO way more
+[11:46] aggressive than I usually would because
+[11:48] of that that notion that that most folks
+[11:51] come into whether it's like one of my
+[11:53] employees or um you know somebody else
+[11:56] at the organization that I'm trying to
+[11:57] win over saying oh well our CFO is tough
+[12:00] like good luck with him. Most of the
+[12:02] time it's just like this this mismatch
+[12:04] of understanding like the root problem.
+[12:07] And so I made this persona really
+[12:09] aggressive in the fact that um the three
+[12:11] focuses I wanted to enhance by creating
+[12:14] this persona were the pitch, the actual
+[12:17] offering, and the closing hook. Because
+[12:20] when we're talking about small
+[12:21] businesses especially, those are often
+[12:24] the three areas that they get wrong, one
+[12:26] of those three. And with CFOs, you have
+[12:28] less time to make your point. You have
+[12:30] less time to experiment as a small
+[12:32] business and get it right. And so the
+[12:33] idea to experiment synthetically and get
+[12:37] grilled and annihilated safely from the
+[12:39] comfort of your own home so that you can
+[12:40] take that as a learning experiment and
+[12:43] not be doing that face to face with your
+[12:45] real customer and prospect. That was
+[12:47] what I wanted to to give my employees
+[12:49] and myself is I'm going to give you the
+[12:52] worst CFO that you could possibly be in
+[12:53] front of. And by the way, they're fake.
+[12:55] We're not watching you talk to them.
+[12:57] This is for your benefit and your
+[12:59] benefit only. Go wild. try like try your
+[13:02] lines. And the on the back end of this,
+[13:05] the coding is um if the representative
+[13:09] can give the offering, the pitch and the
+[13:13] close in terms of the least emotional,
+[13:17] the least products and features, and the
+[13:19] most business revenue focused, then they
+[13:22] get nice answers. the more they explain
+[13:24] the products and features, the more they
+[13:27] try to push uh a painoint that they
+[13:29] think is a generic CFO painoint, the
+[13:31] more aggressive the CFO gets.
+[13:33] >> Jobs taking 40 hours a week are down to
+[13:36] like 15 hours now. Um where
+[13:41] what were the key tasks and processes
+[13:43] that you started at? And when in your
+[13:45] automation,
+[13:46] >> I was actually pulling in more so 80
+[13:49] hours a work week because I just didn't
+[13:50] have enough time in that in that 40
+[13:53] hours to get done the work that I felt
+[13:55] like needed to be done. So the five
+[13:58] tasks that I immediately started to to
+[14:00] look at and optimize were content
+[14:02] repurposing.
+[14:03] Um it was email inbox management,
+[14:07] researching and prep, client onboarding
+[14:09] and delivery. Uh and then lead
+[14:11] qualification and the pipeline
+[14:13] management that comes with that. In
+[14:15] those five tasks, let's just look at
+[14:16] them one by one. So for content
+[14:18] repurposing, I was spending hours
+[14:19] turning every piece of content into
+[14:21] multiple formats. And so I revamped
+[14:25] that. My entire content marketing
+[14:27] operation is Notion, Claude, Descript,
+[14:31] Canva, Buffer, and Opus Clip. That's it.
+[14:34] >> Your content creation marketing stack
+[14:37] costs you about $75 a month.
+[14:39] >> Yes. Notion is at the center of
+[14:41] everything. And I don't mean in terms of
+[14:43] like task management. I mean every piece
+[14:44] of content I have ever written lives in
+[14:46] Notion. Every LinkedIn post, every
+[14:47] newsletter, every talk transcript, every
+[14:49] client story. Uh but more importantly
+[14:52] also in notion is my brand identity, my
+[14:55] archetypes, my content pillars, my my
+[14:58] voice guidelines, the words I use, what
+[15:00] I refuse to use, my origin story. And so
+[15:03] when I go to create content, I'm not
+[15:06] starting from zero and neither is
+[15:07] Claude. So, if I have everything stored
+[15:10] in notion and organized, then when I'm
+[15:13] using Claude in my content marketing
+[15:15] stack, and I hope that folks copy this
+[15:17] because they should, when I use Claude,
+[15:19] I'm integrating Cloud to research what's
+[15:21] being discussed right now, like what is
+[15:23] trending, what are the questions people
+[15:25] are asking, what debates are happening
+[15:27] right now. That research is getting
+[15:29] pulled directly into notion, and then
+[15:31] it's getting tagged by my content
+[15:33] pillars so that it's relevant. And then
+[15:36] when I draft, Claude doesn't get a
+[15:39] prompt. It gets my brand document, my
+[15:41] pillars, all of my information. And when
+[15:45] I draft, it's getting drafted the same
+[15:47] way that this started. It's getting
+[15:48] drafted into one long form video content
+[15:52] that I can then tweak and iterate and
+[15:55] hate and revise as much as I want. And
+[15:57] then it gets reformatted into the
+[16:00] different posts and the different
+[16:01] formats and the different channels. And
+[16:03] I'll use Descript to help me do that. in
+[16:05] terms of editing and I'll use Opus Clip
+[16:06] in terms of um getting the content in
+[16:09] the right formats at the right times
+[16:11] with the captions and then Buffer of
+[16:13] course to schedule it all because I
+[16:15] can't be in all the places at once. So
+[16:17] that was that was just one task and
+[16:20] honestly out of all five of them I think
+[16:22] selfishly my favorite out of the all
+[16:25] five that really I think showed me
+[16:30] the optimization in ways I wasn't used
+[16:32] to seeing before was the lead
+[16:34] qualification and pipeline management
+[16:37] because I don't think anyone has a a a
+[16:39] perfect way of doing this at this point
+[16:42] and it is very manual as far as like
+[16:45] scoring and enriching your inbound leads
+[16:47] and then like creating the nurture
+[16:49] sequences until they're sales ready and
+[16:52] like what is sales ready? Is it an MQL?
+[16:54] What's an MQL? Well, if this is an MQL,
+[16:56] when is it SQL? So, like all these
+[16:58] little nuances that do exist in every
+[17:00] business but bubble up to even bigger
+[17:03] visible opportunities for executives.
+[17:07] That was really where I I spent the
+[17:09] majority of the time out of all five of
+[17:11] those tasks because I decided what and
+[17:15] who I actually wanted to work with um
+[17:18] based on what I was seeing in the CRM
+[17:20] and then I just gave the AI that I was
+[17:23] working with at the time the
+[17:25] qualification and the criteria um
+[17:27] because as a marketer it's half formula
+[17:30] and it's half experimentation and
+[17:32] especially with small businesses you
+[17:34] don't have the luxury of time and so
+[17:36] when it comes comes to lead
+[17:37] qualification, you don't really have the
+[17:39] luxury of getting it wrong. Enterprises
+[17:40] can get that wrong for a couple months
+[17:42] and then at some point that will catch
+[17:44] up, right? Uh small businesses, they
+[17:46] don't have that time. And so being able
+[17:48] to look at your CRM and see what has
+[17:51] worked in the past, what hasn't worked,
+[17:53] creating the formulas, and then just
+[17:55] using your gut when you're actually
+[17:57] trying to refine your strategy for leads
+[17:59] and qualifying them or perhaps change
+[18:02] your nurture sequences. That's where I
+[18:04] decided to spend the human time. And
+[18:05] that was ultimately out of all five of
+[18:07] those tasks, the one that saved me the
+[18:09] most time, automating email and inbox
+[18:11] management. So just drafting responses
+[18:14] to routine questions from multiple
+[18:17] people. I really enjoyed automating that
+[18:19] because I kept the relationship critical
+[18:21] emails, anything involving negotiation
+[18:23] or conflict or nuance. But then I
+[18:26] automated the part of opening my email
+[18:29] inbox and it already being in priority
+[18:31] levels of what is most urgent and it
+[18:34] already had drafted responses for the
+[18:36] ones that weren't critical. So that was
+[18:38] that was the third task that I
+[18:40] automated. And then research and prep
+[18:42] was the the remaining task. So before
+[18:46] every client call speaking engagement I
+[18:48] was manually researching the company and
+[18:50] attendees and industry context. And now
+[18:53] and then I automated compiling all the
+[18:56] documentation, all the research, the
+[18:58] LinkedIn updates and posts, um even like
+[19:02] comments on YouTube channels that folks
+[19:05] were actually adding. Like I wanted to
+[19:06] know everything and I wanted it to be in
+[19:08] one nice briefing document so that I
+[19:09] walked into every conversation informed
+[19:12] without doing all of that upfront leg
+[19:14] work. So I just automated all of that
+[19:17] except for the part of deciding like
+[19:19] what to do with the information, right?
+[19:21] um and how I was going to use it.
+[19:23] >> You work with a lot of clients um and
+[19:26] from different sizes, mediumsiz
+[19:27] enterprises, larger and some and and
+[19:30] some smaller. So for especially for
+[19:32] smaller businesses um what have you seen
+[19:35] them
+[19:37] spending the most time on in terms of
+[19:39] repetitive tasks and if you had some
+[19:42] advice for them like where's the first
+[19:44] place that you would have them start if
+[19:45] you're looking at sort sort of the
+[19:47] broader organization? So my short answer
+[19:50] to this is any task that your team hates
+[19:54] because if they hate doing it, they're
+[19:56] not going to pour their heart and soul
+[19:57] into it. If it's just something that
+[19:59] they dread doing. For me, what it comes
+[20:02] down to and when I have to name those
+[20:04] tasks, it's back and forth emails that
+[20:06] are a necessity to the business. It's
+[20:08] things like social media posting, which
+[20:09] can become very tedious. And also, I
+[20:12] don't know anyone who actually enjoys
+[20:13] posting on social media, but you have to
+[20:15] out of necessity. uh data entry and so
+[20:18] those those three areas I would say
+[20:20] would be the biggest call outs in terms
+[20:22] of where small businesses could be
+[20:23] saving their money. So looking at how
+[20:25] you can automate those portions of it to
+[20:27] give your humans back more time to spend
+[20:32] you know that time doing tasks that are
+[20:35] connected to revenue opportunities for
+[20:37] the business but also fill their cup so
+[20:39] that they're putting more energy into
+[20:40] them. That's what I would say you should
+[20:42] start with. 2026 is going to be messy.
+[20:44] There's still going to be a lot of
+[20:46] information out there. Some of it's
+[20:47] going to be valid. Some of it's going to
+[20:49] be misinformation. Um,
+[20:52] you can't really put too much weight on
+[20:54] on what the news is saying you should do
+[20:56] with AI or what your favorite company is
+[20:58] doing with AI because unfortunately we
+[21:00] can't actually look in their books and
+[21:02] see what's what's happening, right? Like
+[21:04] we can't just see that they're, you
+[21:06] know, generating $10 billion and be
+[21:08] like, "Yep, that sounds great. We're
+[21:10] going to go do it now, but we have no
+[21:11] blueprint for how you did it and we're
+[21:12] just going to take your word for it."
+[21:13] Like that's not a thing. I would say
+[21:15] pause before you automate anything.
+[21:18] Track every task that you're doing for 2
+[21:21] to 3 weeks and then ask yourself these
+[21:24] questions. Does this require my
+[21:26] judgment, relationships or creativity?
+[21:29] Does this follow a predictable pattern?
+[21:31] And then what's the cost of getting it
+[21:33] wrong? The first two questions, if it's
+[21:36] a yes, then it's a good candidate for
+[21:37] automation. The third question is really
+[21:40] just a benchmark for
+[21:43] how much human oversight is needed. And
+[21:45] so the the first two questions are
+[21:47] really your guiding principles and are
+[21:49] these tasks things that actually are
+[21:51] good candidates for automation? And then
+[21:53] if they are great, but if you get these
+[21:56] wrong, what is that going to do for you
+[21:58] and your career? What's that going to do
+[21:59] for your business? So kind of look at
+[22:01] the at it as like an autonomy spectrum
+[22:03] in terms of find your good use cases for
+[22:05] AI, but then put them in a certain order
+[22:08] that makes you motivated every single
+[22:11] time that you knock one of those use
+[22:12] cases out and you've got really great
+[22:14] metrics. Don't just jump all in all at
+[22:16] once trying to solve everything because
+[22:18] you're not going to be able to and you
+[22:20] are going to fail. So the idea isn't, oh
+[22:23] my gosh, I don't want to use AI agents
+[22:24] because what if they fail? They're going
+[22:26] to fail. They are. Um the idea is when
+[22:29] you have those good use cases, put them
+[22:31] in an order so that you can take the
+[22:33] least scary, least risky use case and
+[22:36] solve it and get a little bit of a
+[22:37] habit, a little bit of a muscle memory
+[22:39] built up and then continue to build up
+[22:41] your use cases in terms of more risk but
+[22:44] more ROI as you go. So it's not an all
+[22:46] or one. It's very much a spectrum. I
+[22:49] think that a lot of the businesses who
+[22:51] are who are smart are looking at AI and
+[22:55] automations and even generative AI as as
+[22:58] foundational steps. And so they're
+[22:59] they're looking at their tech stack and
+[23:01] their tools that they've been using for
+[23:02] years and they're learning how to play
+[23:04] with the AI components of those tools
+[23:06] and then they're going from there to
+[23:08] actually solo experimenting with
+[23:10] automation tools and and being able to
+[23:13] derive real value and productivity gains
+[23:15] for themselves. I think that that's the
+[23:17] expectation that we should set for for
+[23:19] 2026 because you can't skip those two
+[23:22] foundational elements and go right into
+[23:24] building agents. When you're building
+[23:26] automations and agents, it's the exact
+[23:27] same thing. The only difference is
+[23:29] agents have more autonomy. So, there's
+[23:31] way more risk involved than automations.
+[23:33] But if you don't have a documentation of
+[23:36] how you're working and what you're doing
+[23:38] and what the strategy is and it's
+[23:40] written down and your humans are already
+[23:42] normalizing it and and using that
+[23:44] standardized approach, you're not going
+[23:46] to be able to add automations and agents
+[23:48] to it. So I would say going back to the
+[23:50] basics, making sure that we're
+[23:52] challenging what exists and if it's
+[23:55] actually working for the businesses and
+[23:57] then figuring out a way to do that
+[24:00] faster, do it better, scale it out more.
+[24:03] um and then automate the parts of it
+[24:04] after we do that work up front. That's
+[24:07] where the businesses that are smart are
+[24:08] are going in 2026.

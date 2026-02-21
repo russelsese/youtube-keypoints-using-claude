@@ -1,0 +1,592 @@
+[00:00] With AI writing a good chunk of the
+[00:01] code, now more than ever, the tools we
+[00:03] use matter. That's why in today's video,
+[00:05] I'm going to be sharing with you all the
+[00:07] tools that I use, my web and mobile
+[00:09] frameworks, what I use for styling, what
+[00:11] I use for payments, what I use for
+[00:12] authentication, the tools I use to build
+[00:14] AI apps, where I deploy my applications,
+[00:17] the AI tools I use to build my
+[00:18] applications, what models do I use. Is
+[00:20] it just Opus 4.5 or is there another
+[00:22] model? What chat apps did I use? I'm
+[00:24] literally going to be sharing with you
+[00:25] my entire tech and tool stack that I use
+[00:28] when shipping apps using AI. We're going
+[00:31] to get in the weeds with this one. I
+[00:32] hope you're ready. I hope you're
+[00:33] excited. Let's get into it. So, first
+[00:35] things first, let's talk about the web
+[00:37] and mobile frameworks I use. What tools
+[00:39] do I use to build my web and mobile
+[00:42] applications? And for the most part,
+[00:44] this has been pretty standard. There is
+[00:46] a new addition to the pack, and I'll
+[00:47] explain why in a second. But I genuinely
+[00:50] believe with all these tools, I can ship
+[00:52] any web and mobile app. So if you've
+[00:55] been watching my YouTube channel, you
+[00:56] know that I've been a big fan of Nex.js
+[00:58] and I've been using Nex.js for quite
+[01:00] some time now. I know there's some of
+[01:01] you that are probably going to say, why
+[01:03] not Tanstack Start? And I've played
+[01:05] around with Tanstack Start. It's
+[01:06] actually really great. My only qualms
+[01:08] with it is there are actually two
+[01:10] things. First and foremost, the AI
+[01:12] models have not been trained on it. So
+[01:14] it definitely does hallucinate. Now, I
+[01:16] know you can probably add some skills or
+[01:18] some like example code or some snippets
+[01:20] and it'll like steer in the right
+[01:21] direction, but it's not as good as it is
+[01:23] with Nex.js when you you you're using
+[01:25] AI. And the second thing is Tanstack is
+[01:28] still in release candidate, right? So,
+[01:29] it's not even 1.0 version, and it's
+[01:31] really difficult for me to ship
+[01:33] something to production with something
+[01:34] that's still in release candidate. So,
+[01:37] we're using Nex.js as our front end. I
+[01:40] use EliciaJS. Now, most of you might not
+[01:43] be familiar with Alicia JS, but a simple
+[01:46] way of thinking about it is if you're
+[01:48] familiar with Hano, in my opinion,
+[01:50] Alicia is better. It's basically a
+[01:52] back-end framework. Think of how Express
+[01:55] is for NodeJS, Alicia is for bun, but it
+[01:59] also works with Node and I really like
+[02:03] Alysia. Now, how do I use Alysia with
+[02:06] Nex.js? Am I using it as a separate
+[02:08] server? there is um a way instead of
+[02:11] using the Nex.js default API, you can
+[02:14] use Alysia as the backend on your Nex.js
+[02:17] app. So you can see here it tells you
+[02:19] with the nextJS app router, we can use
+[02:21] Alisia on Next.js routes. All you would
+[02:24] have to do is create an app/ API then
+[02:27] have slugs/out.ts
+[02:30] and then you literally copy this code
+[02:32] and it's fantastic. And I'm actually
+[02:33] just going to set this up with you real
+[02:34] quick. So we're just going to spin up a
+[02:36] simple uh Nex.js JS application. We're
+[02:39] just going to call this demo video.
+[02:42] We're going to use the recommended
+[02:43] settings. So, our NexJS project has been
+[02:45] set up. Now, I'm going to go back to
+[02:46] Lisia JS. I'm just going to search
+[02:48] Nex.js.
+[02:49] And I literally just had it. Where'd it
+[02:51] go? Right here. Integration with Nex.js.
+[02:53] We're just going to follow these
+[02:54] instructions. Let me open my project up
+[02:57] in cursor real quick. We called it demo
+[02:59] video. Let's just open this up in
+[03:01] cursor. So, we have our NextJS project
+[03:03] here. All that we're told to do is we
+[03:05] need to create this file right here. So
+[03:08] under the API route, uh, slugs.rod.ts,
+[03:11] this is basically a catchall route. So
+[03:13] basically what it does is any APIs that
+[03:15] you write in Nex.js, the catch all route
+[03:17] will catch them. That's why it's called
+[03:19] catch all route. And we'll be using
+[03:21] Alysia instead. So I'm just going to
+[03:23] copy that. And then under app, we're
+[03:26] going to create new file. We're going to
+[03:28] paste that. And then we have our route
+[03:30] created. And then I'm literally just
+[03:32] going to paste this code right here. And
+[03:35] we're going to binstall Alysia.
+[03:39] And we're also going to just bun install
+[03:40] everything else. And then the errors
+[03:42] should disappear. Perfect. And what's
+[03:44] cool about using Alysia within Nex.js is
+[03:47] you can add Eden, which is basically
+[03:50] their version of TRPC, which gives you
+[03:52] endtoend type safety. So to set this up,
+[03:54] all I have to do is create a treaty
+[03:56] client. So I'm just going to copy this
+[03:58] and under the lip folder, create an
+[03:59] Eden.ts ts file. So I'm going to create
+[04:02] a lib folder and underneath it we're
+[04:05] going to do eden.ts.
+[04:07] We're going to click paste here and then
+[04:09] we're just going to install what we need
+[04:12] to install. So bun install this package
+[04:15] right here. So instead of type, we're
+[04:17] going to just remove that type and make
+[04:19] sure on the route.ts that app is
+[04:21] exported. So we have that set up. Now
+[04:24] that we have everything set up, I'm
+[04:26] going to show you how amazing using
+[04:28] Alisiajs is and how the type safety is
+[04:30] going to help our AI. So whenever I want
+[04:33] to call a route, all I have to do is
+[04:35] import API from Eden. When I click on
+[04:38] the period, you see that I have my get
+[04:40] request, my post request. So it's fully
+[04:41] type safe. I'm just going to type in the
+[04:44] get request and I'm just going to close
+[04:46] the brackets. And here's what's cool
+[04:49] about using Alisia, right? I if I just
+[04:52] console log this message right here. Let
+[04:54] me console log message and I'm going to
+[04:58] run this server. You're going to see
+[05:00] what is returned in message. So let's go
+[05:02] and localhost
+[05:05] 3000.
+[05:07] We're going to inspect
+[05:10] console. So when we look at what's
+[05:11] returned, we see the data hello world.
+[05:14] We see the error return null. We see
+[05:16] response. We see status 200. So what I
+[05:19] can do is I can break up message and I
+[05:21] can get the data, the error, the status,
+[05:23] the response and you can do whatever you
+[05:25] want with that information, right? I
+[05:26] like Alicia for this. So yeah, when I
+[05:29] use Nex.js, I make sure I use Alicia.
+[05:31] But here's the thing, Alicia is not
+[05:33] going to be my main backend. I'll use it
+[05:35] for one-off routes or if there's a
+[05:37] particular reason I need a Nex.js API, I
+[05:39] will use that. But my backend of choice
+[05:41] is Convix. Now, I already hear some of
+[05:43] you, you're only mentioning Convix cuz
+[05:45] you worked there. And I would agree with
+[05:47] you if I didn't use it for every single
+[05:49] project I build. Literally every project
+[05:52] I use, I use Convex. And it's not
+[05:54] because I work there. Well, first and
+[05:55] foremost, I'm the one who reached out to
+[05:57] them and said, "Give me a job cuz I love
+[05:58] the product so much." But truth be told,
+[06:00] it's the amount of things that Convex
+[06:02] does for you. You need a database, a
+[06:04] real-time database, you got it. You want
+[06:06] a clean separation between your
+[06:08] functions and your DB. You don't want to
+[06:10] call your DB directly on the client, you
+[06:12] got it. You want to be able to handle
+[06:14] web hooks, you got it. You want to be
+[06:15] able to handle crown jobs, you got it.
+[06:17] You want to handle scheduled functions,
+[06:19] scheduled jobs, background jobs, cues,
+[06:21] any sort of job except getting a real
+[06:23] job, you got it. So, Convex literally
+[06:26] handles everything for me backend
+[06:29] related and it's done right. Here's the
+[06:32] thing about using Convex. It's not just
+[06:33] a technical decision where yes, the DX
+[06:35] is great, but it's also like from an AI
+[06:38] perspective, the models are so good at
+[06:40] writing convex code. And the reason
+[06:42] being is I'm going to show you the
+[06:43] reason actually. It's very simple. The
+[06:45] reason why AI is great with Convex is
+[06:48] I'm just going to set up Convex on this
+[06:51] project. I'm going to run mpx convex
+[06:53] dev. I'm going to create a new project.
+[06:55] I already have an account set up. And
+[06:57] watch this. Notice how a convex folder
+[06:59] just popped up. Everything in convex,
+[07:02] whatever setup configuration, whatever
+[07:05] feature you want to use, you want to set
+[07:06] up, you spin up a DB, you want to have
+[07:08] scheduled jobs, whatever it is, all of
+[07:10] it is code. If all of it is code, that
+[07:12] means you can use the AI to build all
+[07:15] these crazy things. I don't have to go
+[07:16] to the dashboard and configure something
+[07:18] or turn something on. All of it is code.
+[07:20] Think of Terraform but for your back
+[07:23] end. But it's all Typescript and it's
+[07:25] all type safe and it's real time by
+[07:27] default. Like the amount of highquality
+[07:29] applications you can build at warp speed
+[07:31] if you just make the decision to use
+[07:33] Convex is astronomical. Like an example
+[07:36] I'll give you just like a quick example.
+[07:38] I I'm a big I'm a big personal finance
+[07:41] guy. I love investing and one of the
+[07:42] things that I do is like I really keep
+[07:44] up with the markets, right? One thing
+[07:46] that I wanted is I wanted to have my own
+[07:47] personal dashboard where I can track
+[07:49] like my portfolio but I can also track
+[07:52] certain price levels, right? But I
+[07:53] didn't want to go like on trading view
+[07:55] all the time. I wanted to have just a
+[07:57] simple mobile app. And this is how I
+[07:59] built it. I basically used Trading View.
+[08:02] I used Trading Views
+[08:04] um Trading Views alerts, right? Right? I
+[08:07] don't know why I'm writing this down,
+[08:08] but I used Trading Views alerts. And
+[08:10] basically, they have this feature where
+[08:12] you can give them a web hook and they'll
+[08:13] fire data to the web hook. And what I
+[08:15] used was Convex. I had a Convex
+[08:18] application set up. I had a Convex
+[08:20] backend, right? Let me just write Convex
+[08:22] over here. I had a Convex backend and
+[08:25] then I had a Nex.js, you know, I was
+[08:27] using Next.js for the front end, right?
+[08:29] And basically what was happening was I
+[08:31] set up a Convex web hook. I gave it to
+[08:34] Trading View alerts. Trading View would
+[08:36] fire the alert to Convex and because
+[08:39] whenever something changes in the
+[08:41] database and Convex automatically it
+[08:44] updates on your front end because that
+[08:47] is by default how convex works. I would
+[08:50] get real time alerts on my Nex.js app on
+[08:54] the mobile app on the expo app and all
+[08:56] it took was npx convex dev right and
+[08:59] setting up a web hook is as simple. If I
+[09:01] go into the docs and I just search web
+[09:03] hooks, you could see HTTP actions. It's
+[09:06] as simple as setting that up right
+[09:08] there. That's your web hook right there.
+[09:10] It's so simple. It's so easy. It's fully
+[09:12] type- safe. I can't imagine a world
+[09:14] where I'm building applications without
+[09:17] convex. And it just so happens that the
+[09:19] AI loves convex a lot. Next up, Turbo
+[09:23] Repo. If you're going to be using any
+[09:25] sort of monor repo, you're building a
+[09:26] mobile app and a web app, Turbo Repo is
+[09:28] the obvious choice. And if I'm building
+[09:30] a mobile app, I'm going to use Expo.
+[09:32] I've played around a little bit with
+[09:34] Swift UI, but um it's just for Apple. I
+[09:37] want to be crossplatform or cross
+[09:39] device. So Expo allows me to do that.
+[09:41] And it's React, so it's just easy and
+[09:43] simple to get started. Now, in terms of
+[09:46] styling, I mean, it's pretty simple.
+[09:48] Tailwind V4 and Chat CNN UI. And what I
+[09:50] love about the direction Shatnui is
+[09:53] going is I'll be honest, I usually start
+[09:56] here. I'll go on shhats and UI and I'll
+[09:58] click new project and then I can
+[10:00] customize. Okay, I'll use base UI for
+[10:02] the base component and then let's say I
+[10:04] want the style to be more mirror where
+[10:07] it's a little bit compact and the radius
+[10:09] I want there to be none. I want it to be
+[10:11] super boxy and maybe for the theme let's
+[10:13] go a little emerald, a nice little green
+[10:15] or maybe that feels a little too
+[10:17] corpority. Let's go sky blue. Right? So
+[10:19] I'll literally start here. I'll click
+[10:20] create project and then I'll just run
+[10:22] this bunx command. This is my starting
+[10:24] port most of the time and Shadzian is my
+[10:27] default styling library, component
+[10:29] library, whatever you want to call it.
+[10:31] Now, payments for payments, I'm using
+[10:35] Stripe. And here's the thing, when
+[10:37] you're using Convex, using Stripe or
+[10:41] Polar or Autumn or Dodo Payments,
+[10:43] whatever payment provider you want to
+[10:45] use, it's super simple. And the reason
+[10:47] why is Convex has this thing called
+[10:49] components. And essentially components
+[10:52] are independent modular TypeScript
+[10:54] building blocks for your backend. So I
+[10:57] can click on payments here and I have
+[10:59] full components for Stripe, for Polar,
+[11:02] for Autumn and for Dodo payments. By the
+[11:04] way, someone really handsome is the one
+[11:06] who made the Stripe component. I would
+[11:08] know cuz it's big. But in all
+[11:10] seriousness, the convex component takes
+[11:13] care of everything for me. So let's say
+[11:15] I wanted to use the stripe component.
+[11:17] It's as simple as literally, let me just
+[11:20] close this real quick. It's as simple as
+[11:22] installing the component. And then what
+[11:25] I would do is like literally, you can
+[11:26] use AI for this. You can give AI the
+[11:30] repo. Like you could literally create a
+[11:32] new agent and be like, build out a
+[11:35] subscription for me using Stripe, but
+[11:39] using Convex's Stripe component. Here's
+[11:44] the repo. And I would just let AI spin
+[11:47] it up. And 10 times out of 10, every
+[11:50] time I've done this, it's got it
+[11:51] absolutely right. So I like this is why
+[11:54] again using Convex as a perk is a plus
+[11:57] because there are a lot of these great
+[11:58] components that exist. Let's say you
+[12:00] wanted to build like some really durable
+[12:02] workflows. You can use the workflow
+[12:05] component. You can use the workpool
+[12:06] component. There's a lot of these great
+[12:08] components and integrations that you can
+[12:10] use. Let's say I want storage. I can use
+[12:12] Cloudflare R2. Let's say I want emails,
+[12:14] right? I can use recent and all this
+[12:16] code is already written for me. All I
+[12:17] have to do is just install the component
+[12:19] in my convinc.
+[12:22] So yeah, for payments I'm using stripe.
+[12:24] I haven't used autumn but to be honest
+[12:26] if I had to do some usage based billing
+[12:28] or some AI credit stuff billing I would
+[12:30] use autumn. They have a convex component
+[12:31] so it would make life easier. Now in
+[12:34] terms of O there's clerk, there's work
+[12:37] OS, there's better off. Here's how I
+[12:38] think about it. I will say out of the
+[12:40] three the easiest to set up is clerk.
+[12:43] It's just I'm just be honest. I do like
+[12:45] Better Off Barracks the homie. Uh and
+[12:48] Better Off there's a lot of great
+[12:49] integrations and they even have a convex
+[12:51] component that's getting a lot of
+[12:53] improvements and it might be my def
+[12:55] facto but as of yet clerk is still the
+[12:57] simplest to use. But if I wanted like
+[12:59] some sort of enterprise solution, I was
+[13:01] building an enterprise app. I'm 100%
+[13:03] going for work OS. Here's the thing. You
+[13:05] can't go wrong with any of these. I've
+[13:06] used Better Off. I've used Clerk. I've
+[13:08] used work OS. I use all three of them.
+[13:11] But there are different reasons why I
+[13:12] would pick one. All three solutions are
+[13:14] great. Now, building AI apps. What I
+[13:17] mean by this is what are the tools I
+[13:19] would use when building AI apps. The
+[13:21] first one I want to talk about is
+[13:23] Daytona. I've been using Daytona a lot
+[13:26] the last couple of days. And the reason
+[13:28] why is I've been working on most of you
+[13:31] if you've seen the previous video have
+[13:33] seen Ralphie, which is basically Ralph
+[13:35] on steroids. It's this uh autonomous
+[13:37] loop basically running all sorts of
+[13:39] agents autonomously. We're at 1.6k star.
+[13:43] So, if you could give us a star, I would
+[13:45] really appreciate it. That being said,
+[13:48] the reason why I've been using Daytona
+[13:49] is I want to wrap Ralphie and build an
+[13:52] autonomous coding agent app where all
+[13:55] you do is plan, you hit enter, and then
+[13:57] it builds out the project end to end.
+[14:00] Here's the app. It's called Sandstorm.
+[14:02] So basically what's happening is we're
+[14:03] spinning up cloud code agents in a
+[14:05] Daytona sandbox and people are able to
+[14:08] build applications in that sandbox. So
+[14:10] instead of using their own personal file
+[14:12] system, we're using Daytona's file
+[14:14] system. We're using Daytona sandbox and
+[14:16] I'll be honest, the developer experience
+[14:18] for Daytona is absolutely the best. I've
+[14:20] used a bunch of other sandbox providers,
+[14:23] but nothing comes as close as Daytona.
+[14:26] If you're building any sort of AI coding
+[14:28] agent or AI agent application and you
+[14:31] need access to a file system, I highly
+[14:34] recommend use Daytona. I've been using
+[14:36] it for Sandstorm and it's been
+[14:38] fantastic. AI SDK. AI SDK is basically
+[14:41] what I use to build all my agents. It's
+[14:44] SDK by Versell. It's probably one of the
+[14:46] most popular TypeScript AI SDKs. Very
+[14:49] well supported, very well documented.
+[14:51] Lots of tutorials on it. There's no
+[14:53] reason why you shouldn't use it. The
+[14:54] underdog though, or should I say the
+[14:56] most slept on agent that people are
+[14:59] using but not a lot of people are
+[15:00] talking about is Claude's agent SDK
+[15:03] because this agent SDK is cloud code,
+[15:06] right? You can spin up cloud code
+[15:08] instances. You can spin up cloud code
+[15:10] agents um and you can have them do
+[15:12] plethora of things whether you're
+[15:14] building a coding agent or some sort of
+[15:15] assistant or whatever it is. You take
+[15:18] this agent SDK, you give it access to a
+[15:21] sandbox, you can do a lot of amazing
+[15:24] things, build a lot of amazing AI
+[15:26] applications. So, highly recommend you
+[15:28] use that. And then last but not least is
+[15:30] Composio. Composio is basically my tool
+[15:35] layer, right? So, let's say I wanted to
+[15:37] build an AI application that has access
+[15:41] to my Gmail or a customer's Gmail, my
+[15:45] Google calendar, and a bunch of other
+[15:48] tools, right? Slack, GitHub, Google
+[15:50] Sheets, Shopify, Google Drive, like
+[15:53] there are plenty of integrations you can
+[15:55] give an AI like an agent and it would do
+[15:59] extremely awesome things, right? But
+[16:01] building that integration layer and all
+[16:02] those tools and connecting all those
+[16:04] tools is difficult. Compose abstracts
+[16:06] that. It makes it so simple that with a
+[16:09] few clicks and a bit of line of code
+[16:11] like I'll show you. If we go to the
+[16:14] docs, let's go to the overview. Let's
+[16:16] say you're using AI SDK, right? It's as
+[16:18] simple as initializing composio, right?
+[16:20] You're going to have uh the user is
+[16:22] going to have some sort of user ID.
+[16:23] You're going to create a tool router
+[16:25] session and then you literally give it
+[16:27] access in stream text. So you see you
+[16:30] have tools here. Now it has access to
+[16:32] all the tools you've configured on the
+[16:34] Composio dashboard. And there's
+[16:36] hundreds, thousands of tools, and
+[16:38] building that yourself is a headache.
+[16:40] Composio is a no-brainer. Every time I
+[16:42] build AI applications, I'm using all
+[16:45] these tools. Now, deployments, where am
+[16:48] I deploying my applications? There's two
+[16:49] places really. Uh, for the most part,
+[16:51] I'm using Verscell to deploy my NexJS
+[16:54] applications, but there are instances
+[16:55] where I'll need a separate server. And
+[16:57] for that, I'm using Railway. Railway is
+[16:59] absolutely amazing. I know they don't
+[17:01] have a free tier, but the $5 is worth
+[17:03] it. The DX is amazing. Let's like like
+[17:06] let's say like I'm no fan of Postgress,
+[17:09] but let's say I wanted to spin up a
+[17:11] Postgress database, right? It's as
+[17:13] simple as as follows. I'm going to click
+[17:14] new. I'm going to click databases.
+[17:17] I'm going to click Postgress.
+[17:20] And it is spinning up a Postgress
+[17:22] instance as we speak. And there you have
+[17:24] it. I have a Postgress database, right?
+[17:26] I can go to settings and configure
+[17:28] whatever it is I want. I can get the
+[17:31] database public URL. Meaning if I want
+[17:33] to expose this to another service like
+[17:35] if I have another backend server that I
+[17:36] haven't deployed here, I can do that.
+[17:38] But if I wanted to let's say deploy a
+[17:41] server here, a back-end server that was
+[17:43] going to communicate with this database,
+[17:44] all I have to do is click create and say
+[17:46] I wanted to deploy an Alysia bun server
+[17:49] using Drizzle. I would click that. They
+[17:51] have a template there and then I can
+[17:53] basically deploy this Alicia server and
+[17:55] connect it with this Postgress database
+[17:57] and it's going to be so blazing fast
+[17:59] because you're in the same deployment.
+[18:02] I'm a big fan of railway especially if I
+[18:04] need an external server or another
+[18:06] server. Railway is my place to go. Now
+[18:08] in terms of AI tools, there's a bunch of
+[18:11] them. We're using cloud code. We're
+[18:14] using cursor. Now some of you might be
+[18:15] saying, why are you using cursor? There
+[18:16] are actually times I like going back and
+[18:18] forth with cursor. I do like the cursor
+[18:21] agent itself. I hope you know cursor has
+[18:23] their own CLI. Like if you didn't know,
+[18:26] you can literally type I can type in
+[18:27] agent and what pops up right here is
+[18:30] going to be the cursor agent, the cursor
+[18:32] CLI and it's pretty good. So I'll use
+[18:34] the cursor editor because I like
+[18:36] reviewing the code. I like writing code,
+[18:37] but I'll also be using cloud code. For
+[18:39] terminal, I'm using Ghosty. Ghosty is my
+[18:41] terminal at choice. I just like the DX
+[18:43] and all my hotkeys. It allows me to move
+[18:45] really, really fast. But really the one
+[18:49] I've been greenpilled or gravile pled on
+[18:52] is GPile. And the reason being is AI
+[18:55] code review has allowed me to ship much
+[18:58] faster. I'm going to show you the
+[19:00] Ralphie repo. And let's just pull up a
+[19:03] pull request. Let's look at this right
+[19:05] here. Fix Windows line ending handling
+[19:07] and markdown task source. Right? So I
+[19:10] see someone made a PR. They gave it a
+[19:11] submar. There's a test plan. I'm going
+[19:14] to look at the gravile overview. Here's
+[19:16] how I analyze PRs. Now, if the
+[19:19] confidence score is four out of five or
+[19:22] greater or five out of five, then I'm
+[19:24] reviewing. If it's not, I'm going to
+[19:27] tell the person to address the comments.
+[19:29] And almost every single time I've seen a
+[19:31] five out of five, it is a perfect PR.
+[19:34] It's a safe PR. And Graile has sincerely
+[19:36] cut down the amount of time I've spent
+[19:39] reviewing code that is just blah. And
+[19:41] here's the thing, you can even be lazy
+[19:44] with this. I can take this reptile
+[19:45] review, pass it to the AI I'm using to
+[19:48] build the application and say address
+[19:50] the comments. And there are even places
+[19:51] I don't know if I have maybe let's pull
+[19:54] up this uh PR right here. There are
+[19:57] places you can see here that Gravile
+[19:59] will make comments and it will even
+[20:00] offer suggestions. And there are times
+[20:02] where it won't offer a suggestion, but
+[20:03] it'll give you the prompt to pass to
+[20:06] your AI for your AI to fix whatever the
+[20:09] issue it flagged. So if you're building
+[20:11] anything, especially if you're using AI,
+[20:13] you 100% need to use Gravile. Gravile,
+[20:16] in my opinion, is one of the best AI
+[20:18] code reviewing tools. Now models,
+[20:20] there's really two models for
+[20:22] programming. I'm only using Opus 4.5
+[20:24] thinking. Codeex is cool. Um, there are
+[20:27] times where it'll catch like very edge
+[20:29] case bugs, but I'm using Opus most of
+[20:31] the time. And the reason why I have Open
+[20:34] AI here is I definitely do like 5.2 to
+[20:37] for just everyday tasks, chatting and
+[20:40] all that type of stuff. And speaking of
+[20:41] chatting, what chat apps do I use? T3
+[20:44] Chat is my daily driver, but I also have
+[20:47] a subscription to OpenAI and Claude. The
+[20:50] reason why I have a subscription to
+[20:51] OpenAI is I like Deep Research every now
+[20:53] and then, and my wife uses it as well.
+[20:55] And for Claude, I use Claude Co-work
+[20:57] sometimes. But T3 chat is my daily
+[21:00] driver. Ladies and gents, I know that
+[21:02] was a pretty long video, but this is my
+[21:05] entire techtool
+[21:08] stack. I do plan on updating some of the
+[21:10] templates I have on my GitHub repo for
+[21:13] you guys to use easily, especially when
+[21:15] you're building apps with AI. But I hope
+[21:17] this made sense. I hope you enjoyed this
+[21:19] video. I hope my decision- making and
+[21:21] why I use specific tools matters. At the
+[21:24] end of the day, it's very important that
+[21:26] you understand these tools, right? I
+[21:28] think one edge developers have over
+[21:30] non-developers when using AI is we know
+[21:33] what's good and what's not. We know what
+[21:35] works and what doesn't. And it feels
+[21:37] like we're entering an era of more
+[21:39] engineering, less programming. Although
+[21:41] I'm very sad about it, it is what it is.
+[21:43] We have to adapt to the times. We have
+[21:46] to be the best at what we do. And I hope
+[21:47] you enjoyed this video. Make sure to
+[21:49] like, comment, subscribe, hit the
+[21:50] notification bell. I'll see you in the
+[21:52] next one. Peace.

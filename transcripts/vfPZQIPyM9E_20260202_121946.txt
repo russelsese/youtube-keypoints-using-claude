@@ -1,0 +1,753 @@
+[00:00] Hey there. In this video, I want to talk
+[00:01] to you about Bento. It's the email
+[00:02] marketing platform that I've been using
+[00:03] for the last couple years, and I just
+[00:04] used it to launch my new course. You can
+[00:06] check that out below. There's a link in
+[00:07] the description. But I do want to talk
+[00:09] to you about it today because I came to
+[00:11] the realization that I have probably
+[00:13] been lacking pretty heavily on my email
+[00:16] marketing game. And if you are as well,
+[00:18] I think the things in Bento and the AI
+[00:21] implementations and things that they
+[00:22] have in there that are actually useful
+[00:24] might get you to be a little bit more
+[00:26] excited about what I previously thought
+[00:28] was kind of like an old and not very
+[00:31] important thing to care about in, you
+[00:33] know, email marketing. But it actually
+[00:35] is the thing that really seemingly gets
+[00:37] people to actually purchase your stuff.
+[00:39] If you're out there on YouTube or
+[00:40] wherever and you're kind of like doing
+[00:41] the distribution paths and you are
+[00:44] trying to get your stuff out there,
+[00:45] email marketing, building that email
+[00:47] list, it's kind of important. Let's dive
+[00:48] into it. I'll show you around. Okay, so
+[00:50] here we are. I'll leave a link in the
+[00:51] description for you to go check out
+[00:53] Bento. You can get a free 30-day
+[00:54] unlimited trial. Would definitely take
+[00:56] advantage of that. It's a pretty sick
+[00:57] platform, like I said. But Bento is the
+[01:00] AI email marketing and CRM company.
+[01:02] That's a pretty good H1, if I do say so
+[01:04] myself. um really cool things like this
+[01:06] website has actually changed a lot since
+[01:08] I looked at it. I have some other
+[01:09] content about Bento that I'll link up
+[01:11] below as well if you want to check it
+[01:12] out from a couple years ago. But again,
+[01:14] the the platform, the UI and everything
+[01:16] has just the team has just changed so
+[01:18] much in such a short amount of time that
+[01:20] you know you're going to get more value
+[01:22] out of this one than you would the other
+[01:23] ones. But I think it's still good to see
+[01:25] kind of where they came from. They're
+[01:26] always doing like really cool stuff. And
+[01:27] again, the AI pieces of it are not just
+[01:30] fluff here. They're actually useful when
+[01:32] you're building flows and everything.
+[01:33] and we'll get into it. Um, but yeah,
+[01:35] this is just kind of the main website
+[01:36] here. If we hop into the back end, you
+[01:38] can kind of see just a little bit of the
+[01:39] stats here. I'm going to jump back and
+[01:41] forth between my Seamansky Media, like
+[01:44] my main uh account, and then also my
+[01:47] just like a test site account that I set
+[01:49] up here. I do want to call out a couple
+[01:51] quick little things here. We're not
+[01:52] going to go over every single one of
+[01:53] these cuz some of these things haven't
+[01:54] changed from before, but I do want to
+[01:55] highlight the ones that helped me the
+[01:57] most in my most recent uh product
+[01:59] launch. Uh up here you can see that you
+[02:01] actually have multiple accounts like all
+[02:03] under one different thing. I have
+[02:05] multiple different user accounts that I
+[02:07] can log in and be admins for. But um
+[02:09] their pricing structure is really cool.
+[02:10] It's just kind of like one price for
+[02:12] like all your users and then you can
+[02:14] have multiple different basically again
+[02:15] I would call these like websites. Um so
+[02:18] Seamansky Media is my content business
+[02:19] my media stuff. Motive 11 is my agency.
+[02:22] So those are different just to
+[02:23] understand those are different databases
+[02:25] like they have different there's a
+[02:26] different list of people for motive 11.
+[02:28] There's a different list of people for
+[02:30] semantic media. You don't have to do it
+[02:31] like this if you don't want to, but it's
+[02:32] really cool that you can kind of have
+[02:33] everything separated there, but at the
+[02:35] same time, everything is also accessible
+[02:38] from one or separate users depending on
+[02:41] how you want it. Um, yeah, you're just
+[02:43] going to have to play around with that,
+[02:44] see what you like uh during your free
+[02:45] trial and everything. But yeah, this is
+[02:46] Seamansky Media. Like I said, there's
+[02:48] some basic stats here. Just some things
+[02:49] that we got going on. Um, if we head
+[02:51] down into people, you can see a bunch of
+[02:53] different stuff. I'll obscure the, you
+[02:55] know, email addresses and all that, but
+[02:56] you can see kind of on the right side,
+[02:57] you can see if they're subscribed at a
+[02:59] glance, events, uh, that have taken
+[03:01] place, the statuses of what, you know,
+[03:03] like any sort of tagging and everything
+[03:05] like that. Um, if they've paid you any
+[03:07] money, like you can see cuz, um, there's
+[03:09] a bunch of different things that have
+[03:11] happened here. And depending on your
+[03:12] situation, I want to tell you kind of
+[03:14] like I think the best way to do this is
+[03:15] tell you the high level so you can
+[03:17] understand what's possible. But I also
+[03:19] don't want to like I can give you my
+[03:22] exact situation, but yours probably
+[03:23] isn't the same. The real quick uh
+[03:25] synopsis of my situation was that I was
+[03:27] using a WordPress website specifically
+[03:29] with Shart, but you could use Woo
+[03:30] Commerce, you could use Shopify, you use
+[03:32] a ton of different platforms and you can
+[03:34] integrate the two, Bento and your
+[03:36] e-commerce platform. And then most of
+[03:38] the time it basically automatically when
+[03:40] a charge goes through and the person
+[03:42] gets added to your email list and
+[03:43] everything, it just knows that there's
+[03:45] an event and they paid you $49 or
+[03:47] whatever the case is. And then you it's
+[03:49] a really nice way to know in your email
+[03:51] marketing platform the LTV of any
+[03:54] particular email address or you know
+[03:56] customer in that case. Right now right
+[03:57] off the bat here I want to illustrate to
+[03:58] you just like a little bit of AI in the
+[04:01] sense of quality of life when you're
+[04:02] dealing with your email list. Like,
+[04:04] let's be honest here. Nobody really
+[04:05] wants to spend a lot of time in their
+[04:07] email marketing tool. They don't want to
+[04:08] be messing around and playing around
+[04:10] with different things that they don't
+[04:11] have to. So, let me just show you a
+[04:12] couple different things. If you head
+[04:13] over to segments here, you can kind of
+[04:14] see some of the segments that I have.
+[04:16] You can see the number of people that
+[04:17] are in them. Uh the number of subs
+[04:19] versus just the number of users, right?
+[04:21] That type of thing. If we come back to
+[04:23] people, we could see that if you come
+[04:25] into search, right? Like you have your
+[04:27] big list. This is like your full list of
+[04:29] people. It's, you know, pageionated, so
+[04:30] it's not like everyone at the same time,
+[04:32] but like you could very easily just with
+[04:34] plain text up here. It says, "Type who
+[04:36] you want to find in your own words."
+[04:38] Now, I could type, okay, but I'm going
+[04:39] to give you another little gold nugget
+[04:41] here. And I'll have a link in the
+[04:42] description to this. It's called Whisper
+[04:44] Flow. Okay? I am affiliated with them,
+[04:46] but I literally use it every day,
+[04:49] multiple hours per day because I don't
+[04:50] want to type anymore because I could
+[04:52] just speak faster and just do, you know,
+[04:53] whatever I want. So, I'm going to hold
+[04:55] down two buttons on my keyboard. You're
+[04:56] going to see a little see a little thing
+[04:57] pop up and you'll see the uh the text
+[04:59] generate. Find me builders that have
+[05:02] purchased
+[05:04] the WP AI course. And notice I didn't
+[05:07] even say that exactly how it says in the
+[05:11] tags, right? Like you can see some of
+[05:12] the tags down here. It just
+[05:14] automatically knows and brings in from
+[05:16] that. I mean that's like kind of like an
+[05:17] obuscated use of AI, right? It's just
+[05:20] like in the back end and you're just
+[05:21] searching and it's it's creating that.
+[05:23] But the thing is like you know in a lot
+[05:25] of cases you probably have to search
+[05:27] that and then add these these rules like
+[05:29] on your own. It's just a pretty cool
+[05:30] thing where you're able to do that just
+[05:32] with your voice even or just typing. But
+[05:34] the point of that in under 5 seconds I
+[05:36] was able to say that and then it was
+[05:38] able to find those users and then I was
+[05:40] and then I'd be able to search users and
+[05:41] now I'll see all of those people down
+[05:43] here and I could do whatever I needed to
+[05:45] do with them. So that's pretty cool.
+[05:46] That's our first use of AI. Again, I
+[05:47] don't want to go through everything but
+[05:48] I do just want to kind of give you a
+[05:49] little bit of lay before you get that
+[05:51] free trial. So, we have tags here. And
+[05:53] again, you can kind of change these out
+[05:54] however you want. The one thing I will
+[05:56] say is that Bento takes a different
+[05:58] approach to this. They don't really have
+[06:00] like true like tags and lists. Like you
+[06:02] can see lists down here, but that's like
+[06:04] a different use case. It's mostly tags.
+[06:06] Like it's that's the basis of
+[06:08] everything. It plays in really well with
+[06:10] like the events that come again from
+[06:12] your website or anything like that. Like
+[06:14] if we head down to events for instance,
+[06:16] we can see like all the different views
+[06:17] and things that people have actually
+[06:19] like this is literally tracking the uh
+[06:22] the data that is coming through my
+[06:23] website. You put a little script on
+[06:24] there. Uh you link it up and then you
+[06:26] know it's it's beautiful because now you
+[06:27] have more data in your actual email
+[06:29] marketing platform, not just in Google
+[06:32] Analytics or Plausible or wherever. So
+[06:34] uh again just more data. That's
+[06:35] definitely uh fantastic. And then over
+[06:37] here we have fields where these are
+[06:39] custom fields that you can kind of
+[06:41] configure potentially you know obviously
+[06:42] a first name last name etc. But you know
+[06:44] maybe you want to have phone in there
+[06:46] maybe uh maybe you want to have like
+[06:48] where they bought their you know their
+[06:49] product from the page that they had it
+[06:51] so you know uh attached literally to
+[06:53] their actual profile you know just more
+[06:56] data depending on what you're trying to
+[06:58] do. Also want to call out a little bit
+[06:59] of a UI Easter egg if you will is
+[07:01] there's things like this where it's like
+[07:02] used in and it says likely used in
+[07:04] flows. Now we didn't get to flows yet.
+[07:06] That's kind of like the whole point of
+[07:07] like the biggest part of the AI piece of
+[07:09] this. But if you click on that, then
+[07:11] it's going to take you over to where
+[07:13] your flows are. Now, I have double
+[07:15] opt-in. I have some stuff for the agency
+[07:17] and the agency course. And then I have
+[07:18] like another older double opt-in
+[07:20] feature. And we'll play around with some
+[07:21] of these types of things. But the point
+[07:22] is that we were on fields and it was
+[07:25] like, okay, well, you don't want to like
+[07:27] you want to make sure that you don't
+[07:28] delete data in general, but you also
+[07:30] don't want to make sure that you aren't
+[07:32] deleting things that are used in a flow.
+[07:34] And again, a flow is like an automation
+[07:36] for your marketing, right? Somebody's,
+[07:38] you know, subscribing and you're making
+[07:39] sure that they are getting, you know,
+[07:41] again, double opted and are confirmed.
+[07:43] Uh, you know, somebody is subscribing to
+[07:45] or purchasing something from you. You're
+[07:47] sending them some welcome emails. You
+[07:49] know, I mean, you could have a ton of
+[07:50] them depending on how big your your
+[07:51] apparatus is for your service or your
+[07:53] product. But again, if we go back to the
+[07:55] fields, it's just one of those things.
+[07:56] It's like, oh, that's kind of really
+[07:58] interesting that, you know, everything
+[07:59] feels a little bit more cohesive when
+[08:01] you have small little UI things like
+[08:03] that. Okay, I'm going to go ahead and
+[08:04] switch into the test site here for this
+[08:06] next little bit. And depending on where
+[08:08] you're at in your email marketing
+[08:09] journey, the thing that you might know
+[08:10] the most about is just like a simple
+[08:13] broadcast or like an eblast depending on
+[08:15] what you thinking about when you, you
+[08:16] know, whatever your verbiage is there.
+[08:17] So, if you come down to emails, you can
+[08:19] see how to start a broadcast. There's
+[08:20] sequences, there's all these other
+[08:22] things, but let's just talk about real
+[08:23] quick what is the actual sending of a
+[08:26] simple broadcast like in Bento. So,
+[08:28] we're creating new broadcast here and we
+[08:29] can obviously start with AI. There's a
+[08:31] couple different ways that you can build
+[08:32] emails, too. I will say uh I I think
+[08:35] most of like the general email lists
+[08:37] that I'm subscribed to nowadays are just
+[08:40] almost formatted as like plain text
+[08:42] maybe like an image or two. If you
+[08:45] subscribe to a lot of like I don't know
+[08:47] like legacy stores like big box stores
+[08:49] and stuff you're probably going to get
+[08:50] more of like the drag and drop style
+[08:53] where there's like it almost looks like
+[08:54] a website in an email rather than just
+[08:57] like plain text. You're going to have to
+[08:58] decide. I was that guy before the drag
+[09:00] and drop and now I'm more of just the
+[09:02] text editor. But uh you're going to have
+[09:03] to decide which one you want. But
+[09:05] regardless, I mean, you know, we could
+[09:06] start with AI and kind of get some
+[09:08] thoughts. And then there's AI modes in
+[09:09] both. I'll kind of show you. Now, if you
+[09:10] were actually going to do this right now
+[09:12] and start with AI, I would recommend
+[09:13] that you give it a better prompt than
+[09:15] I'm about to give it, but uh you know,
+[09:17] generally a lot more detail kind of the
+[09:19] better if you want to get a better
+[09:20] output. But uh for the time being, I'm
+[09:22] just going to say, "Hey there. I want to
+[09:25] announce to all my subscribers that I
+[09:27] have a course called AI powered
+[09:28] WordPress agency. Uh the price is $199.
+[09:32] They can get lifetime access today.
+[09:36] So just something like that and click
+[09:37] generate. Now I think by default it's
+[09:39] going to go to the uh just the text
+[09:42] editor that we were talking about there
+[09:43] first, but there's the other option
+[09:44] where you could also go to the um
+[09:47] there's AI mode in the other one. I'll
+[09:49] show you that in a second. This takes a
+[09:51] little bit, maybe like 10, 15 seconds or
+[09:53] whatever, but then it blops it right in
+[09:54] there. Look at that. That's beautiful.
+[09:55] Now, as always, I feel like I have to
+[09:57] say this. Please, for the love of God,
+[09:58] do not just use this, okay? I would give
+[10:00] it better context in the prompt. And
+[10:02] then I would also obviously edit it. But
+[10:04] the fact that it's all integrated in
+[10:05] there and it took 15 seconds, pretty
+[10:07] cool. If you're not impressed yet
+[10:08] because that's just text, hang on to
+[10:10] your hats. We're going to get to the
+[10:11] flows in a second. But to close the loop
+[10:13] on the text editor here and how you can
+[10:14] edit with it, obviously there's a bunch
+[10:16] of different things here. It's like your
+[10:17] standard email marketing platform for
+[10:18] formatting and everything. But on the
+[10:20] right hand sidebar, as you can see now
+[10:21] that I moved my face, is that you can
+[10:23] conversate back and forth with the AI
+[10:25] chat just like you would in most other
+[10:28] like LLM style chat bots. And it even
+[10:30] gives you some little things down here
+[10:31] at the bottom to say like make it
+[10:32] shorter, add urgency, deadline. I like
+[10:34] that. Let's just throw that in there.
+[10:35] See what it does. Again, very vague
+[10:37] prompt. Would not recommend.
+[10:41] So there we go. A little bit more
+[10:42] inspiration, some edits that it made for
+[10:43] us that we can go ahead and continue to
+[10:45] tweak on our own. I'm going to go back
+[10:46] out and click add a new broadcast. Now,
+[10:49] we're going to try the drag and drop
+[10:51] mode. So, as you can see, if you're
+[10:52] familiar with like Constant Contact or
+[10:54] Mailchimp, this is like much more of I
+[10:56] feel like what you would be accustomed
+[10:57] to. And if you're more comfortable here,
+[10:59] then, you know, do your thing. But, we
+[11:00] have an AI mode. Right away, I'm seeing
+[11:02] an absolutely diabolical prompt down
+[11:04] here that it's asking me to potentially
+[11:05] do. So, I'm going to click make more
+[11:07] modern. See what that does. I actually
+[11:08] really appreciate that it didn't just do
+[11:10] anything and it did ask me what I meant
+[11:12] because you know that's uh definitely
+[11:14] how you should respond as an LLM and not
+[11:16] just do some random And I feel
+[11:17] like if you are somebody that wants to
+[11:19] actually leverage AI inside of tools
+[11:21] like not just for text but for you know
+[11:23] doing your own work right I think this
+[11:25] is something that you want so you can
+[11:26] have more of a conversation with it back
+[11:28] and forth and kind of dial in what you
+[11:30] want before it actually makes the
+[11:31] changes. So, I'm just going to say,
+[11:33] yeah, go ahead with the second option
+[11:36] and then um change the color to
+[11:40] um more of like a black and electric
+[11:44] blue like you said.
+[11:48] All right. So, kind of cool. It did some
+[11:50] stuff. Again, at the end of the day,
+[11:52] this is basically just code. So, if you
+[11:54] just like looked at the code, you can
+[11:55] kind of like deal with whatever you
+[11:57] wanted. I gave it some other prompts
+[11:59] just again kind of like our example of
+[12:01] like you know me launching the course
+[12:02] and it did a decent job again with very
+[12:05] very limited information. Uh again if
+[12:07] you're trying to do something like this
+[12:09] I would highly recommend that you
+[12:10] actually give it enough context but the
+[12:11] point is that it can do some pretty
+[12:13] interesting things that at least is
+[12:15] going to get you more of the way there
+[12:17] than you would. And I think that in a
+[12:19] lot of cases that is a huge win. Now all
+[12:21] that's pretty important obviously in an
+[12:22] email marketing platform but uh it's
+[12:25] pretty basic. So I want to show you
+[12:26] something else. Just a couple more
+[12:27] things here real quick. So, this one is
+[12:29] chat. Now, chat is literally like a chat
+[12:31] widget that you can put on your website.
+[12:33] I don't have, you know, the time in this
+[12:35] video to show you the entire thing, but
+[12:37] I will give you kind of a overview on it
+[12:39] and show you how the AI kind of works
+[12:40] because you can have an AI agent
+[12:42] directly in the chat for you all within
+[12:44] your email marketing platform. You don't
+[12:45] need to go somewhere else to to do this.
+[12:47] So, again, we have our test site set up
+[12:49] here. Uh we have different inboxes. You
+[12:51] can add more. You could do like, you
+[12:52] know, even like other email, SMS, and
+[12:54] all this other stuff. Let's just keep
+[12:56] this simple, okay? Just for this basic
+[12:57] overview here, though. Let's go up here
+[12:59] and let's say conversations. And we can
+[13:01] see that there's already one set up. I
+[13:02] went ahead and I set it up. All it is is
+[13:04] like a little script that you paste onto
+[13:05] your website. You can do wherever uh you
+[13:07] know, whatever. I just did it in like a
+[13:09] quick little WordPress situation here.
+[13:11] But this is just a template just to kind
+[13:12] of give you something to look at. I'll
+[13:13] move my face over here. And then we have
+[13:16] a little thing here down at the bottom,
+[13:17] right? It's the same thing you would
+[13:18] expect, right? It's a little chatbot
+[13:20] down here. And then you can just say
+[13:21] different things to it. So you could say
+[13:23] like, "Hey, how are you? Can you tell me
+[13:25] about, you know, what's going on today?
+[13:27] Now, again, there's not really I I did
+[13:29] skip a step here. Obviously, I'll show
+[13:30] you how to do this, but like it's not
+[13:32] fully interacted and like there's no
+[13:35] knowledge base attached to this yet. So,
+[13:36] I have no idea what this is going to
+[13:37] give me. The whole point of it is though
+[13:39] that you have now an AI agent that is on
+[13:41] your website, right? So, it's here to
+[13:43] help to related to test site. If you
+[13:45] need any questions, just let me know,
+[13:47] etc., etc. But again, this is built with
+[13:49] AI, okay? This is all like internal
+[13:50] though. I didn't have to hook anything
+[13:52] up. I didn't have to like go get API
+[13:53] keys or anything like that. If you want
+[13:54] a simple out of the box solution and
+[13:56] you're already using Bento for your
+[13:57] email marketing platform, uh you know,
+[13:59] check it out while you're on your trial.
+[14:00] So, let me flip back here. Let me move
+[14:02] my face back. And uh let me just kind of
+[14:04] show you just real quickly some of these
+[14:05] things. So, like right here is where you
+[14:07] would go for the autonomous agents. So,
+[14:08] you can set up your agent. All I did was
+[14:10] create an agent. I'll just create
+[14:11] another one here real quick. Some of
+[14:12] this stuff is already default. You can
+[14:14] name it whatever you want. Give it a
+[14:15] description, avatar. Uh you can go in
+[14:17] here and you tell it what inboxes you
+[14:19] want to set it up for. So, in our case,
+[14:21] it was just we just have the one, but
+[14:22] you could do for multiple different
+[14:23] ones. I'll click this and then I'll come
+[14:25] through here to personality. There's a
+[14:28] lot of different things. And this is
+[14:28] kind of again like you're kind of tuning
+[14:30] your own AI a little bit with this. And
+[14:33] then you're also able to you're not a
+[14:36] not not only you're able to tune it like
+[14:38] the actual AI part, but again, when we
+[14:40] talk about like the memories and the and
+[14:42] the the actual information, obviously,
+[14:44] it needs some of that. You don't want it
+[14:46] to just be like a rogue AI that people
+[14:48] are talking to. in in practice, this
+[14:50] would be about your website, right? And
+[14:52] you would be able to um you know, it'd
+[14:54] be able to give knowledge based on the
+[14:56] information that you have about your
+[14:57] business. Uh but yeah, so you can kind
+[14:59] of change a bunch of different uh things
+[15:01] about these. And then it can even
+[15:02] escalate, you know, too as well. Like if
+[15:04] you know, like like you always probably
+[15:06] do on your apps when you're dealing with
+[15:08] chat, you're like, "Hey, just get me to
+[15:10] a human like if it can't fix it." The
+[15:12] idea is that this is kind of a first
+[15:13] line of defense, right? So if we come
+[15:15] over to memories, you can add your first
+[15:16] memory. You can do page, sitemap, RSS
+[15:18] feed. Uh, that's actually pretty cool. I
+[15:20] haven't actually tried this yet, so, you
+[15:22] know, let me know down in the comments
+[15:23] if you want to see more about this or if
+[15:25] you play around with it and have any
+[15:26] thoughts, but there's a bunch of
+[15:27] different ways to add that. I did see
+[15:29] one other thing here. Not sure if it's
+[15:31] going to pop back up, but I saw
+[15:33] something uh about Docsbot. I think
+[15:35] there's like integrations. So, there's
+[15:37] like web hooks and then like different
+[15:39] little like applications and stuff that
+[15:40] you could connect to these uh obviously
+[15:42] automation rules and such. But um you
+[15:45] know it's the problem here is it's
+[15:47] really going to depend on your use case,
+[15:48] right? So uh depending on what you need
+[15:50] it for as far as your knowledge base,
+[15:52] you can probably make that happen. And
+[15:54] uh yeah, it's just something to kind of
+[15:56] mess around with here. So this is again
+[15:58] real quick while while we're doing this
+[15:59] is I sent in that message and then
+[16:02] obviously it was on the front end at
+[16:04] that point, right? But on the back end
+[16:06] here, this is what you would be able to
+[16:08] see either a real conversation like if
+[16:10] you had, you know, if you hired chat um
+[16:13] like support people, then they would be
+[16:15] able to enter through here and say like
+[16:17] like test whatever, you know, like say
+[16:18] whatever like maybe maybe we could say
+[16:20] like hello back or something like that
+[16:22] and then say send here and let's see
+[16:24] what we got on the front end. So now we
+[16:26] have hello that was actually from me,
+[16:28] right? So that's kind of cool, right? So
+[16:29] you can have um also I'll move my face
+[16:31] here real quick so you can kind of see
+[16:32] this. This says like human down here and
+[16:34] this says AI. Uh just kind of cool. I
+[16:37] mean again the whole point here, the
+[16:38] whole point that I'm trying to make with
+[16:39] this is that if you're using email uh
+[16:41] Bento for your email marketing platform
+[16:43] already, it already has like all this
+[16:45] stuff in here as opposed to you having
+[16:46] to go find another live chat app or all
+[16:49] these other things. This is in the AI
+[16:52] CRM uh chat piece of the platform. I was
+[16:55] about to move on to our last topic, but
+[16:56] one last thing I had I had to tell you
+[16:58] as I was navigating away from this page
+[17:00] at the bottom here, I saw this little
+[17:01] microphone and recording audio and I had
+[17:04] to test it. It actually does work. It's
+[17:06] pretty pretty It's pretty crazy. So,
+[17:07] like you could actually send a voice
+[17:09] memo back to your at least as of right
+[17:11] now, you can send it back there. Uh I
+[17:13] don't know why the uh I I don't think I
+[17:16] can play this for you. I don't know why
+[17:17] my voice got like super low, but uh it's
+[17:22] you know it's it it works. It's pretty
+[17:24] cool.
+[17:24] >> Wow. This is pretty amazing. Does this
+[17:26] actually work?
+[17:27] >> Yeah. Not sure of that. Not sure why
+[17:29] that happened, but you know, it is what
+[17:30] it is. And uh you can send voice memos,
+[17:31] too. It's pretty sick. All right. Last
+[17:33] thing I want to cover here, and it is
+[17:34] the most powerful, honestly, is the
+[17:35] flows. Now, flows are like automations
+[17:38] baked directly into your email marketing
+[17:39] platform. There's a ton of different
+[17:41] things in here. This is the most, you
+[17:43] know, dense area of discussion in this
+[17:45] entire platform. Uh the team at Bento
+[17:48] has made such incredible stuff here. Uh,
+[17:51] and it changes so often because they're
+[17:52] always adding like new cool things here.
+[17:55] I want to show you the lay of the land
+[17:56] here in a way when you're like making
+[17:57] this flow. So, obviously there's like a
+[17:59] bunch of triggers in here and then
+[18:00] there's actions, but obviously like
+[18:02] we're in AI mode, so we're trying to,
+[18:04] you know, we can like move things in
+[18:06] and, you know, bring different stuff in
+[18:08] and do whatever we want. But at the same
+[18:09] time, like we could also just tell the
+[18:11] thing what to do and get us at least,
+[18:14] you know, 80% of the way there and then
+[18:16] maybe tweak things if we need to. And
+[18:17] right before that, I want to say as
+[18:18] well, like noting this little thing here
+[18:20] where it says ask a question about
+[18:21] flows. We can ask the AI. It's it's kind
+[18:24] of like a dual purpose. It can do things
+[18:26] for us, but can also just answer
+[18:27] questions for us. Can you tell me about
+[18:30] flows and maybe recommend some that I
+[18:33] should build first if I'm just setting
+[18:35] up my account for the first time? So,
+[18:37] with just that simple question, it's
+[18:38] going to give me some information here.
+[18:39] It's going to tell me like flows, AK
+[18:41] automation, or bentos. If this happens,
+[18:43] then do that engine. Um, you've probably
+[18:45] seen this type of thing elsewhere
+[18:47] obviously at this point. I mean, you've
+[18:48] probably seen it externally, you know,
+[18:49] with tools like Zapier, naden, make.com,
+[18:52] etc. Uh, and you've probably seen it
+[18:54] potentially in some other email
+[18:55] marketing platforms that I would wager
+[18:57] that you haven't seen it just like this,
+[18:58] the way that you're able to again
+[19:00] conversate and do all these different
+[19:01] things. And it gave us some examples,
+[19:02] too. So, like welcome and onboarding
+[19:04] series, conversion cleanup,
+[19:06] re-engagement, list hygiene, high intent
+[19:08] page, support, feedback loop. I'm just
+[19:11] going to come down here and say build a
+[19:12] welcome series. Okay. Now, in less than
+[19:14] 30 seconds, we have the bones of a
+[19:16] welcome series ready to go here. Now,
+[19:19] couple things. Again, as always, I
+[19:21] wouldn't just say just use that and and
+[19:23] just like press save and leave this
+[19:25] because obviously it's not that was not
+[19:26] a good enough prompt, nor was that
+[19:28] enough time and energy devoted into
+[19:29] this, but think about how long it would
+[19:30] have taken you even just to drag all
+[19:32] these in and do that stuff. So, it's at
+[19:33] least at minimum a timesaver. And
+[19:35] secondly, this is a different
+[19:37] implementation of AI obviously than we
+[19:38] saw earlier. Earlier in the in the
+[19:40] broadcast and stuff, we saw like kind of
+[19:42] glorified text implementations of AI
+[19:45] just, you know, kind of natively, which
+[19:46] is a nice thing. But this is a way more
+[19:48] specialized use case of AI here where
+[19:50] we're actually building within the UI of
+[19:52] a particular app. We're not doing
+[19:53] anything hokey where we're trying to
+[19:55] like build use the AI somewhere else and
+[19:57] then like export JSON data or some some
+[20:00] other whatever format we need and then
+[20:02] bring it in. This is literally all in
+[20:03] here and it took, you know, less than a
+[20:05] minute. And again, this isn't just for
+[20:06] building them, it's for editing them,
+[20:08] too. So, we have some steps in here.
+[20:09] We're like waiting 3 days and we're
+[20:11] waiting 7 days. I'm just going to try to
+[20:13] say, hey, you know, on the first on the
+[20:14] first delay, wait 5 days. On the second
+[20:17] delay, wait 10 days. On the first delay,
+[20:20] wait 5 days. On the second delay, wait
+[20:22] 10 days. And just like that, we got that
+[20:25] changed. So now the value is 5 days over
+[20:28] here and it's 10 days over here. Now
+[20:30] again, could I have just clicked in and
+[20:31] done that? Yes. But like I could also
+[20:32] give it like multiple things at one
+[20:34] time. I think the whole point here is
+[20:36] again if you haven't if you're not at
+[20:37] this point in mindset wise like where
+[20:39] the world is headed like you have to be
+[20:41] more become more of an orchestrator an
+[20:43] idea hver innovator a systems architect
+[20:47] if you will uh rather than a button
+[20:49] clicker you can still click buttons
+[20:50] obviously but I just think that this is
+[20:52] at least to me where I want to be
+[20:54] because I can kind of pilot the system
+[20:56] and then step in when needed rather than
+[20:58] doing every single one of the individual
+[21:01] pieces of leg work. I'm gonna try one
+[21:02] more thing here just to kind of see how
+[21:04] this works. Can you go ahead and delete
+[21:06] all of the nodes?
+[21:10] Boom. They're all gone. What I'm going
+[21:11] to do is I'm going to take this second
+[21:13] one that it gave us and I'm going to say
+[21:15] like create this flow and boom, there we
+[21:20] go. So, we have customer purchased or
+[21:21] upgraded. Then we have, you know, tag
+[21:23] them as a lead, tag them as a customer.
+[21:26] Uh, now they're now we're sending them a
+[21:28] welcome email and we're marking them as
+[21:29] complete. Now again, go in here and make
+[21:31] sure you're changing these things
+[21:33] depending on like what is actually
+[21:34] happening like whatever the the event
+[21:36] is. In this case, it's like a generic,
+[21:38] you know, just order paid situation. But
+[21:40] if this is the first time you're seeing
+[21:41] Vento, I can understand how you might
+[21:43] not think that the platform itself is
+[21:45] that powerful. This was not an in-depth
+[21:47] tutorial on all that. So, I do
+[21:48] apologize, but you can either take my
+[21:50] word for it, or you can go sign up for
+[21:51] the unlimited free trial. And once
+[21:53] you're in there, you can go ahead and
+[21:54] play around with any flows that you
+[21:55] want. If you already have an email
+[21:56] marketing platform, maybe it's a little
+[21:58] lackluster. literally just come in here
+[22:00] and see if you can rebuild them just
+[22:01] like kind of starting with AI at least
+[22:02] to get most of the way there and then
+[22:04] tweak them when you need to. In any
+[22:06] case, I hope you found this valuable. I
+[22:07] talk about using AI to automate and
+[22:09] improve business systems all the time.
+[22:11] So, if you're interested in learning
+[22:12] more and doing these types of things for
+[22:13] yourself, make sure you go subscribe to
+[22:15] my mailing list down in the description
+[22:17] there. And if you're a business owner
+[22:18] looking to benefit from services like
+[22:19] this, I'll leave a link to my agency,
+[22:21] Motive 11, down there in the description
+[22:22] as well. We'd love to work with you. All
+[22:24] that said, thank you so much for
+[22:25] watching. I greatly appreciate it and I
+[22:27] will talk to you in the next

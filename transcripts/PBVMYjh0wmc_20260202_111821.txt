@@ -1,0 +1,178 @@
+[00:00] Sometimes you just need that one file, and it'd be really nice if you just had a simple application
+[00:06] that ran in a web browser that gave you access to your files.
+[00:09] Well, today we're going to be taking a look at CopyParty.
+[00:13] This turns almost any device into a file server.
+[00:16] It's a really simple Python application that did the rounds a few months ago.
+[00:21] It's just taken me a while to get around to covering it.
+[00:23] And this application we're going to run in a container.
+[00:26] We're going to put on our tail nets, of course, because that's what we do here on the TailScale channel.
+[00:31] I'm also going to show you some new Docker Compose secrets, tricks of how you can configure
+[00:37] not only the CopyParty application itself directly in your Compose YAML files,
+[00:42] but also the TailScaleServe sidecar piece directly in your Docker Compose YAMLs as well.
+[00:49] Now, I'll put a link in the description to all of the materials about CopyParty,
+[00:53] such as this fantastic YouTube video, 16 minutes long,
+[00:56] it goes through all of the different features
+[00:58] that CopyParty has.
+[00:59] It's brilliant.
+[01:00] It does a better job than I could possibly manage.
+[01:02] We're going to focus, like I say,
+[01:04] on the Docker Compose aspects today
+[01:06] and deploying this thing onto your tail net.
+[01:09] Now, you've seen on the channel many times before
+[01:11] that I deploy applications with the main application
+[01:15] and then a tailscale sidecar container.
+[01:18] And the downside of that, in fact,
+[01:19] if you look in this long list of apps
+[01:22] we've covered on this channel over the years. The downside of that is that you need this kind of
+[01:27] sidecar volume mounted serve.json file. It's a very simple file. All it essentially does is it tells
+[01:34] the tailscale serve to listen on port 443 to proxy this port from inside the container onto your
+[01:41] tail net using tailscale serve. I've always wished that it was a simple way to do that without bind
+[01:48] mounting a separate file well i found one i found one it's been right under my nose this whole time
+[01:56] docker compose has this configs top level element built into the yaml configuration schema of docker
+[02:03] compose so what we can do is we can define okay this is just the json blob we looked at earlier
+[02:09] kind of minified ish so that it fits more comfortably inside our compose file and doesn't
+[02:15] like WordWrap or anything.
+[02:17] What we can do is we can define these elements
+[02:20] inside our config files,
+[02:22] and then we can reference them later on
+[02:24] inside our configurations.
+[02:25] That's it, that's the cool trick.
+[02:28] So what this does is it ingests this content block up here,
+[02:32] lines four through eight,
+[02:34] and then spits it out into a file
+[02:36] inside the remote container.
+[02:38] So let's take a little look
+[02:39] at the copy party application itself.
+[02:42] It is super basic.
+[02:43] It's just a file browser that runs inside a web browser.
+[02:47] Effectively, you know, I can select an image,
+[02:49] I can view an image, I can go through here
+[02:51] and look at my obsession with the Volkswagen Golf.
+[02:54] This was Wookiees in the Woods, by the way, a few years ago.
+[02:57] Fantastic event if you're a Volkswagen enthusiast like me.
+[03:01] And you know, I can see all of my images
+[03:03] that I've taken over the years.
+[03:04] In fact, these are the same images
+[03:05] that were powering the image video that came out last week.
+[03:09] So I'm gonna log in now using the username and password
+[03:11] configured in my compose file.
+[03:13] It literally right now is change me.
+[03:16] And now I just want to create a new directory.
+[03:18] I'm just going to call this test
+[03:20] because I want to show you how fast this thing is.
+[03:23] I'm going to bring up a directory full of a bunch of test photos.
+[03:28] And then if I just drop this into the browser like so, ready?
+[03:33] Here we go.
+[03:34] We're uploading, I don't know, 25 files, 22 files.
+[03:39] And that's it, it's done.
+[03:40] And we can now bring these up full screen and have a look at them.
+[03:42] We can download them.
+[03:43] We can fetal them.
+[03:44] We can rotate them.
+[03:45] It also supports rich media.
+[03:46] So if you've got an audio file, for example, let me look on my desktop,
+[03:50] where I've almost certainly got a recording that I'm using for this video.
+[03:54] Let me just upload that here.
+[03:56] And we can play those audio files in the browser.
+[04:00] There we go.
+[04:01] So now I could use this as a low-rent podcast player if I wanted to.
+[04:06] The other option it does as well, can I see?
+[04:09] Yeah, it renders the spectral waveform of the file.
+[04:13] I just think that's a really cool,
+[04:14] nice little touch from CopyParty.
+[04:17] There are tons and tons and tons
+[04:19] of other features to this thing.
+[04:21] For example, if I wanted to download
+[04:22] the entire directory as a zip file,
+[04:25] which can be really handy sometimes,
+[04:26] I just click this little button down here.
+[04:28] No right-click menus, no doing silliness,
+[04:31] and there you go.
+[04:31] There's my test directory now as a zip file
+[04:34] on my local system.
+[04:35] There is a way you can mount CopyParty as a webdav,
+[04:38] So if you go up to this option up here and say connect,
+[04:41] you can basically turn your copy party instance into like a remote file server
+[04:47] that appears as a mounted network share inside your computer.
+[04:50] And you can, of course, do this all over TailScale when it's on your TailNet.
+[04:53] And he supports multiple different ways.
+[04:56] You've got WebDAV, you've got PartyFuse, iShare,
+[04:59] as well as all the different operating systems using Rclone
+[05:02] and all the other stuff that exists in the world.
+[05:06] I can't say enough good things about this app.
+[05:08] Honestly, it's really simple.
+[05:10] It's really simple considering it's just a bunch of Python.
+[05:14] And it just does what it needs to do really well.
+[05:18] So let's take a little look at some of the lifecycle stuff
+[05:20] around the config stanzas inside Docker Compose.
+[05:23] You can see that, as I showed you earlier,
+[05:25] we have the tailscale serve configuration,
+[05:28] but we also have the copy party configuration as well.
+[05:31] It's a very simple application to configure.
+[05:33] And so I thought it was a perfect example for today's video.
+[05:37] You can see how the config for TS serve gets reused later on in the file just down here.
+[05:43] And then the same thing applies also to the copy party configuration as well.
+[05:48] So how does this get passed through on the remote side?
+[05:50] What does it look like inside the container?
+[05:52] Well, let's take a look at the copy party TS serve container.
+[05:55] We're going to look inside copy party TS.
+[05:59] Now I've SSH'd into fake NAS, which is where this application is actually running.
+[06:02] And I'm going to do this command, docker exec copy party TS.
+[06:06] and I want to see what the config looks like,
+[06:09] the serve config looks like inside that remote container.
+[06:13] Because if we look at the YAML file look,
+[06:15] this gets passed through and mapped almost as a target
+[06:19] in /config/serve.json, which is the file path here
+[06:23] that I'm going to print out to the terminal
+[06:25] and we're going to have a look at.
+[06:26] And you can see this block here matches perfectly
+[06:31] this block here inside my compose file.
+[06:34] But what if I want to make a change?
+[06:35] This is where it can get a little bit, I don't know,
+[06:38] like I just expected it to work a different way than what it actually does.
+[06:40] But we'll get there.
+[06:42] Let's make the change to the compose.yaml file.
+[06:44] And I want to change tailscalefunnel to be true for this node, for example.
+[06:49] Now, if I do that and modify the compose file and then do a Docker compose restart,
+[06:54] I've restarted the copyparty and the copyparty tailscale containers, the sidecast.
+[06:59] But if I do the same exec command look, it still says false.
+[07:04] even though our compose file says, our survey says,
+[07:09] even though our compose file says true right here.
+[07:11] It does seem logical that that would work, doesn't it?
+[07:13] But the problem here is that the restart process
+[07:17] only stops the process inside the container
+[07:20] and then starts the container again.
+[07:22] It doesn't run any of the container creation
+[07:25] or instantiation routines that look at the config files
+[07:28] in your YAML file.
+[07:30] It doesn't recompute the hash and say,
+[07:31] hey, something's changed.
+[07:33] We should probably update this.
+[07:34] The container itself will still exist, the same container, the same file system, the same mounted configuration object from when it was first created.
+[07:44] Compose won't go back and read that config file until you recreate the container.
+[07:51] So that leaves us with really only a couple of options.
+[07:54] And the one that I've sort of landed on is to use Docker Compose up force recreate.
+[08:00] So this is a lifecycle issue.
+[08:02] So if we can do a force recreate, then we're all good to go.
+[08:06] So I'm going to do this.
+[08:07] I'm going to do docker compose up minus D dash dash force recreate.
+[08:11] And look what happens to our YAML file.
+[08:15] Our funnel block now reads true.
+[08:18] So if you're using these config blocks to define configs for applications,
+[08:23] you need to understand that they work differently to bind mounts.
+[08:27] They don't update in real time inside the container.
+[08:30] Docker Compose only reads these config blocks at container creation time, at container instantiation time.
+[08:37] So to make a change to those underlying configs and for them to be passed through to the containers,
+[08:41] you just have to recreate the container every time.
+[08:44] It's a small workflow tweak, but a really, really important one.
+[08:47] So that's kind of the gotcha with Docker Compose configs.
+[08:51] They're read once when the container is created,
+[08:53] and then they're locked in until you recreate that container completely.
+[08:57] It's not obvious, and the docs don't exactly make this crystal clear, that whole life cycle of the container piece.
+[09:03] So hopefully this saves some of you from the debugging headache that I had today.
+[09:09] So let me know in the comments what other stuff is hiding in the Docker Compose documentation that I've probably completely missed.
+[09:15] This has been one of my favorite little discoveries of the last few weeks.
+[09:19] Now, I have to say a great big thank you to all of you for watching throughout 2025.
+[09:25] And here is to a prosperous and successful 2026 to all of you.
+[09:30] Thank you so much for watching.
+[09:32] I've been Alex from Tailscale.

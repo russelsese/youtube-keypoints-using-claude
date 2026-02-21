@@ -1,0 +1,901 @@
+[00:00] You've heard of Claudebot. You've heard
+[00:01] of Claude Code. You hear that people are
+[00:04] unleashing crazy productivity gains, but
+[00:06] you don't know how. In this episode, I'm
+[00:09] going to show you a bunch of different
+[00:11] use cases, 10 plus use cases for how to
+[00:14] use CloudBot and how to use AI to be a
+[00:17] way more productive person in your
+[00:20] personal life and also in your business
+[00:22] life. I brought in one of the craziest
+[00:25] tinkerers on the planet to come on and
+[00:28] he is at the forefront for using
+[00:30] Claudebot for just pushing it to the
+[00:33] extreme. And I just asked him, hey, can
+[00:35] you come on the podcast and just show us
+[00:37] how you're using it so other people
+[00:40] could copy you? And he's got just the
+[00:42] craziest setup. He even [music] has, you
+[00:44] know, uh, one setup where he he DMs
+[00:46] Kevin from the office, David Gogggins.
+[00:50] He's got this crazy setup where these
+[00:52] agents are helping him run his
+[00:54] day-to-day life and [music] his wildly
+[00:56] successful businesses. And it was just a
+[00:58] treat uh to have him come on and see how
+[01:01] he's pushing the edges. Uh by the end of
+[01:03] this episode, you will have your
+[01:05] creative juices flowing for how you can
+[01:07] use CloudBot and how you can use AI to
+[01:10] be an extremely productive person. Uh I
+[01:13] don't think you can watch this and not
+[01:15] be uh inspired for all the different uh
+[01:19] use cases to integrate AI in your life.
+[01:22] Enjoy the episode. [music]
+[01:29] [music]
+[01:32] >> Kits is a guy I've been following on the
+[01:34] internet for a while. He seems like out
+[01:36] of control, but he's got in a good way.
+[01:39] He's he's he's one of my favorite
+[01:40] followers when it comes to vibe coding.
+[01:43] Kits, by the end of this episode, what
+[01:45] are people tactically going to get uh
+[01:48] take away from it? First of all, they're
+[01:50] going to get severe ADHD. If you have
+[01:52] it, welcome. If you don't have it,
+[01:53] you're going to get it. What you're
+[01:55] going to get is like a info dump and
+[01:58] brain dump of like a gazillion
+[01:59] productivity tips. We can try to stay on
+[02:02] topic. That never works with me. That's
+[02:04] why with Greg, we didn't plan any
+[02:05] agenda. We didn't plan a title. We don't
+[02:08] know what the title is going to be.
+[02:09] We're going to talk about productivity,
+[02:11] cloudbot, personal AI assistance,
+[02:13] self-hosting,
+[02:14] building a life OS, and a trillion other
+[02:17] things.
+[02:18] >> Dude, you're firing me up.
+[02:19] >> Yeah, let's go.
+[02:20] >> And let's go. Maybe we can start screen
+[02:23] sharing. So, you you've intrigued me on
+[02:25] this this idea around personal OS. I'm
+[02:29] curious how you're using Cloudbot. Teach
+[02:31] us
+[02:32] >> teach us. We want the kids brain.
+[02:34] >> Yeah. Yeah. Yeah. Yeah.
+[02:36] I have a bunch of tabs here. I didn't
+[02:38] prepare a bunch of notes. I have like a
+[02:40] one note with things. My cloudbot is
+[02:42] heavily personalized and I have like a
+[02:45] tons of personal data right now. The
+[02:46] last few days have been a roller
+[02:47] coaster. So, we won't be able to
+[02:49] interact with it, but we can go through
+[02:52] all the things that I've done with it
+[02:53] going from the tweets that I I have
+[02:55] here. So, uh how I'm using Cloudboard
+[02:59] right now, I'm just moving to a new
+[03:00] workspace. Uh I'm using Discord
+[03:02] basically. And as you can see here, I
+[03:05] have like a one discord called kit and I
+[03:07] have a one discord called zikit. Zikit
+[03:08] is just like a flip on my name which is
+[03:10] supposed to be the company discord. So
+[03:13] what I have in cloudbot is like first of
+[03:15] all there's like one gateway. So when
+[03:17] you run cloudbot is like everyone else
+[03:18] running cloudbot. I don't run multiple
+[03:20] cloud bots. I have it running on my Mac
+[03:21] studio and there's like one gateway that
+[03:24] then to that gateway you can interface
+[03:26] with telegram, iMessage, WhatsApp, your
+[03:28] phone. I'm making a Ma glasses app right
+[03:30] now to be able to connect through the Ma
+[03:32] glasses and I'm in Telegram I made a
+[03:36] couple of bots with different personas.
+[03:38] I think this is crucial. So
+[03:41] um every you can see in my discord here
+[03:43] I have Gilfoil. So Gilfoil is a
+[03:45] character from Silicon Valley for people
+[03:46] that don't know and his skills and his
+[03:49] abilities within my cloudbot are to be
+[03:52] professional to be an engineer and he's
+[03:54] equipped with all the skills to be an
+[03:56] engineer like react native versell cooly
+[03:58] managing SSH GitHub whatever he doesn't
+[04:01] need to know about my home assistant
+[04:02] doesn't need to know about my groceries
+[04:04] and the other stuff then in my um in my
+[04:07] personal telegram I have couple of
+[04:09] personas that I made I think I have them
+[04:11] somewhere in the in the open tweets and
+[04:13] every persona is equipped with a
+[04:14] different style of talking, different
+[04:16] avatar, different name, and uh different
+[04:19] skills. These are my personas. This is a
+[04:22] group called Arkham Asylum. This is
+[04:23] where I keep all of my bots. Uh David
+[04:26] Gogggins, my fitness coach. He talks
+[04:27] like David Gogins. He like swears, says
+[04:29] all the things, trained on his
+[04:31] personality, cares only about, they all
+[04:34] care about my life, but about specific
+[04:36] parts. We have Kevin, which is my
+[04:38] accountant. I would say not a very good
+[04:40] accountant cuz he's kind of down
+[04:41] sometimes. Um, Dr. Cox, who cares about
+[04:44] my health and stuff, so all the health
+[04:46] stuff, I I don't have a screenshot of
+[04:49] that, but I took all of my blood results
+[04:50] and made like a UI for browsing my blood
+[04:53] data and seeing what goes up, what goes
+[04:55] down. And Dr. Cox is in charge of like
+[04:57] only medical stuff. This is kind of
+[04:59] gimmicky, but it's a nice separation
+[05:01] because if you talk to only one bot all
+[05:03] the time about everything, sometimes you
+[05:05] cannot separate things out. So, you can
+[05:06] just create multiple, give them fun
+[05:08] personalities from TV shows, movies,
+[05:09] whatever. And like Darlene is for
+[05:12] example our home manager. So me and my
+[05:14] wife and Darlene are in the family group
+[05:17] and she will manage our entire home
+[05:18] groceries, ordering stuff, um shopping
+[05:21] list, whatever, whatever it is.
+[05:23] >> So if someone sees this and is like I
+[05:27] want to do something similar to this,
+[05:29] could you give people just a little bit
+[05:32] of how they can set up their own Kevin
+[05:34] Malone, their own David Gogggins with
+[05:36] within Cloudbot? Um, I would for for
+[05:40] everyone who's been asking me stuff like
+[05:41] my answer is like just ask your bot
+[05:43] because that's the coolest thing, right?
+[05:44] Like I didn't know how to make these
+[05:46] personas. I asked on Discord. I asked on
+[05:47] Twitter. I'm like [ __ ] it. I'll ask the
+[05:49] bot. And the bot guides you through even
+[05:51] clicks through the browser and helps you
+[05:52] to to do these.
+[05:54] >> The answer is this is like one cloudbot
+[05:56] gateway. It just serves multiple
+[05:58] personas.
+[05:59] >> Perfect.
+[06:01] So the cool thing about using Discord
+[06:03] compared to Telegram, WhatsApp, Slack
+[06:05] and whatever is uh you can group things
+[06:07] into sections. So here as you can see
+[06:09] like I I have nicely organized sections
+[06:12] for everything. And within those
+[06:14] sections you can have channels. Within
+[06:16] the channels you can have uh help
+[06:18] topics. So, as you can see here, if I go
+[06:20] to customer threads, there's nothing now
+[06:22] because I'm moving from my old Discord.
+[06:24] But the idea is there is a customer's
+[06:26] channel here where I would talk to my to
+[06:30] Gilfoil or whoever about the customer
+[06:31] support and they scrape my mail and they
+[06:34] scrape my scrape or fetch it from API my
+[06:36] DMs and anytime they find something
+[06:38] related to my products, they would open
+[06:40] a new post here and be like, "Hey, a
+[06:42] customer is having like a billing issue.
+[06:43] We select a billing issue, blah blah
+[06:45] blah." they would put the post here and
+[06:47] then a sub agent will immediately start
+[06:48] processing that customer. But I only go
+[06:51] in the into the forum if I care about
+[06:53] individual customers. Most of the time I
+[06:55] talk into the customers channel about
+[06:57] customers in general. So I'll tell my
+[06:59] bot and I've already done this. So hey
+[07:02] find every customer who what the hell is
+[07:04] that? Find every customer who had an
+[07:06] issue with license activation and do
+[07:09] this and that. So it's going to spawn
+[07:10] all the threads. Uh you can see the
+[07:12] thinking process. What is it doing for
+[07:14] every customer? But I control it from
+[07:15] one main thread.
+[07:18] >> And you know, I just see the comment
+[07:19] that someone's going to say uh right now
+[07:21] like why is this better than just using
+[07:25] cloud code or or another tool? Like why
+[07:28] is it better to to have to have this
+[07:31] setup over any other setup?
+[07:34] >> I like I I'm honestly this last few days
+[07:37] have been very tiring on Twitter. I've
+[07:39] been battling people about this opinion
+[07:41] and I got to a point where like [ __ ] it.
+[07:43] If you don't see it, you don't see it.
+[07:45] Like there are people who've been trying
+[07:46] to shove this in people's faces like
+[07:48] look at this. It's so productive. But
+[07:50] for some people I think the FOMO is
+[07:51] preventing them from seeing it clearly
+[07:53] and they're going to find these nitpicks
+[07:55] like oh I can just do this with cloud
+[07:57] code. And the answer is like fine do it
+[07:59] in the worst way. Like
+[08:01] >> I don't know what I can say aside from
+[08:03] everything we're going to say from this
+[08:04] podcast. If someone listens to all of
+[08:06] this and concludes that this is not
+[08:08] worth it, there's nothing you can say to
+[08:09] convince them.
+[08:10] >> So, so your answer to that is stick with
+[08:12] me. I'm going to show you I'm going to
+[08:14] keep going and I'm going to show you why
+[08:16] this is
+[08:17] >> yes
+[08:17] >> an extremely productive and optimized
+[08:20] way
+[08:21] >> to run your life and run your business.
+[08:23] >> Yeah. Uh, another aspect is the
+[08:25] self-learning part. I think for the
+[08:27] first time people saw that how an AI can
+[08:29] self-learn and learn new skills because
+[08:31] for GPT and for cloud you got to install
+[08:33] connectors and you got to go to a UI and
+[08:36] they don't have access to your shell.
+[08:37] this having access to your shell meaning
+[08:40] you can tell it like I literally told it
+[08:42] um find my printer and print something
+[08:44] cool and it just found it on my network
+[08:45] and it printed some asy art and it
+[08:47] printed like a nice message for me or I
+[08:49] was like find my uh I don't know
+[08:51] displays that I have at home and through
+[08:53] home assistant try to cast like a
+[08:55] dashboard of my life so it figures out
+[08:57] goes on the network goes to home
+[08:58] assistant finds my TV makes an HTML
+[09:00] dashboard and casts it on my TV like
+[09:03] both chat chat GPT and claude like the
+[09:05] UI don't have the ability to like
+[09:08] self-learn and kind of find their way
+[09:10] around limitations because this has
+[09:12] literally access to your anything that
+[09:14] you can do on your computer and on your
+[09:15] network this can do it um too. So before
+[09:20] we we uh before we wrap up about the the
+[09:23] interface like another cool thing you
+[09:25] can do uh in discord is basically these
+[09:28] little things which are like it's not
+[09:30] ideal but it's nice that you can start
+[09:32] threads like within my skills. I have
+[09:35] like a thread called Benji skill and
+[09:36] once I'm done with it I am planning to
+[09:39] close this one. So channels are staying
+[09:41] forever. And threads are like something
+[09:43] temporary like a task that we're working
+[09:44] on or a skill that I'm adding or
+[09:47] whatever and it's still not in the um in
+[09:52] the core of Clawbot yet. It doesn't know
+[09:54] how to create Discord threads. But you
+[09:56] can just teach it and tell it, hey, you
+[09:58] don't have it, but figure out the
+[09:59] Discord API and start creating threads
+[10:01] every time I add a to-do, let's say. So,
+[10:03] Discord is compared to my interface that
+[10:05] I showed you, Discord is the closest
+[10:07] thing, especially if you make one for
+[10:09] work and you make one for private and
+[10:11] then you have like a nice um separation.
+[10:14] >> Okay. So, good tip. Your recommendation
+[10:16] is don't start with iMessage, Telegram
+[10:21] when you're setting up Claudebot. Start
+[10:23] with Discord.
+[10:25] >> I would not say that for beginners to be
+[10:27] honest. I would just say avoid WhatsApp
+[10:28] because it's like the most finicky
+[10:30] setup. Yeah.
+[10:32] >> Um, I would say if you're a Telegram
+[10:33] user, start with that. If you're not a
+[10:36] Telegram user, what are you doing? Like
+[10:37] I think anyone who texts me on like
+[10:39] WhatsApp, Viber, whatever. Um, so
+[10:42] actually iMessage or Telegram would be a
+[10:44] good start to just feel the power of the
+[10:46] bot to make it learn things, to make it
+[10:47] learn skills, and it's less frictiony
+[10:49] cuz not everyone wants Discord on their
+[10:51] phone. Discord is like confusing for a
+[10:53] lot of people. And most of the magic
+[10:55] here is like you're you're able to take
+[10:56] it with you on your phone. And I don't
+[10:58] want like a like 15 Discord communities
+[11:00] pinging my phone for for whatever. This
+[11:02] would be the next step I would say.
+[11:04] >> Okay. Step one, feel the magic. Step
+[11:08] two, double down on the magic with
+[11:10] Discord. Got it.
+[11:11] >> Yes. Um, last thing I want to add on
+[11:14] platforms before we move to something
+[11:15] else is I haven't explored Slack yet.
+[11:18] So, I'm still not I haven't set up a
+[11:20] Slack, but a lot of people are familiar
+[11:22] with the Slack interface for work. So I
+[11:25] would say if you want to make like a
+[11:26] worksp specific agent, most people would
+[11:29] easily transition to Slack because they
+[11:30] they've already used it and they know
+[11:32] all the quirks and it actually has a
+[11:34] bunch of features that other platforms
+[11:36] might not have. So all of these like
+[11:38] Telegram, Discord, Slack, they come with
+[11:40] different benefits that you get in the
+[11:42] one or don't get in the in the other.
+[11:45] >> Cool. What's next?
+[11:48] >> All right, let's see which tabs I have
+[11:50] open here. I have no idea. This is the
+[11:52] uh what? Yeah, canceling my missive
+[11:55] subscription. So, missive has Let's talk
+[11:56] about email because email is like a huge
+[11:59] topic and people are actually getting
+[12:01] their accounts hacked and stuff and
+[12:03] people are scared because oh my god my
+[12:04] email yesterday uh yesterday someone
+[12:07] tried to um prompt inject my cloudbot
+[12:11] for the first time because I'm a p I'm
+[12:13] like I have followers my email is in a
+[12:15] billion places and people of course are
+[12:17] going to try to do that. So my advice
+[12:20] first of all there would be like first
+[12:21] of all if you're just starting don't
+[12:23] even connect your email. I know one of
+[12:24] the benefits is like read my email
+[12:26] don't. Second of all while we're talking
+[12:29] about security do not host it on a
+[12:30] virtual private server whatever if you
+[12:32] can host it on your own machine and
+[12:34] dockerize it so it doesn't have access
+[12:36] to everything. Start there and then
+[12:38] slowly maybe open up cuz so many people
+[12:40] thought it's going to be uh less scary
+[12:42] to host it on a VPS and then they left
+[12:45] ports exposed and they left a bunch of
+[12:46] stuff vulnerable basically for someone
+[12:48] to attack them. So if you don't know
+[12:49] what you're doing, start with this.
+[12:51] Dockerize no email access. If you give
+[12:54] email access,
+[12:56] uh do not use cheap models. So people
+[12:57] are trying to save and Pete has been
+[12:59] saying this in the discourse since day
+[13:01] one that if you're trying to save even
+[13:03] with Sonnet even like some people are
+[13:04] using haiku or whatever like it's going
+[13:06] to be stupid. It's going to be prompt
+[13:08] injected and then you're [ __ ] because
+[13:09] this has literally access can wipe your
+[13:11] entire system, delete all of your
+[13:12] emails, go to your GitHub, install
+[13:14] malware, like it has your Apple
+[13:16] credentials to deploy apps, whatever. So
+[13:19] got to be careful what you give it
+[13:20] access to. Um use like I prefer Opus
+[13:23] most of the time um for this and codeex
+[13:27] for coding. So um cloudbot can actually
+[13:30] spawn sub aents that are specialized in
+[13:32] coding. So I have a skill that tells it
+[13:34] anytime you need to call code. You don't
+[13:35] do it yourself. Spawn a sub agent that's
+[13:38] using codeex because codeex is better
+[13:40] for for coding. So regarding this tweet,
+[13:43] I connected my email but I'm very
+[13:45] careful about it. That's why I'm always
+[13:46] using the smartest models and I don't
+[13:48] have a web hook. Some people have this
+[13:50] where every email immediately gets
+[13:52] pinged into the bot and filter through
+[13:53] the bot. That's stupid because then the
+[13:55] bot just gets the email without any
+[13:57] context and then it might follow the
+[13:59] instructions in the email like send me
+[14:00] my bank account credentials or whatever.
+[14:02] So if you do it, I would do it where you
+[14:05] tell the bot or it's on a chron job
+[14:07] periodically doing something with your
+[14:08] email but not um getting every email and
+[14:12] processing every email. Even though I
+[14:14] tried yesterday like I took the prompt
+[14:16] injection, I tried to put it myself into
+[14:17] my cloudbot and it laughed and it was
+[14:19] like no I'm not falling for this. So
+[14:23] um Opus is actually careful to an
+[14:25] extreme point. Like I've given it a
+[14:27] phone number. I bought a phone number
+[14:28] with Twilio and a couple days ago I
+[14:30] wanted to test it. I was like um I'm not
+[14:32] going to set an alarm. You wake me up at
+[14:33] 8:30 and it set a task to call me and
+[14:36] then I wake up later. Of course the
+[14:37] alarm didn't work. It didn't call me and
+[14:39] I go on my phone and it says haha I'm
+[14:41] not falling for this. You don't wake up
+[14:42] this early. So uh I'm not falling for
+[14:45] someone's prompt injection who wants to
+[14:46] wake you up so early. So even when you
+[14:49] give it the instructions it's like
+[14:50] insanely careful to not be if some I
+[14:53] think the more it evolves the more it's
+[14:54] going to learn from its memory. The more
+[14:56] it's going to learn about you and it
+[14:58] will know whether you would do something
+[15:00] as stupid as asking for your bank
+[15:02] credentials over email etc. I mean
+[15:04] prompt injections will evolve also but
+[15:06] got to be careful there. So is your
+[15:08] vision for the future that customer
+[15:10] support maybe in like three, four, five
+[15:12] years, 99% of it is handled via a cloud.
+[15:17] >> Like what are you talking there's no 5
+[15:18] years. There's no three years. I don't
+[15:20] want to sound like a doomer. We're going
+[15:21] back to my previous track record. In
+[15:23] 2017, I had a slide before AI was
+[15:25] mentioned. I had a slide saying in the
+[15:27] future front-end development will look
+[15:29] like managers and hired people in the
+[15:31] company will talk to a voice assistant
+[15:33] and they will say what they want and the
+[15:35] browser will show them what they want.
+[15:37] which means all the layers in the
+[15:39] company are going to thin out unless we
+[15:40] get to like couple of people. So I said
+[15:42] this like more than 10 years ago and
+[15:44] it's now unfolding. So when I say like
+[15:47] you see all of these doomer and meme
+[15:48] takes like you got to make money before
+[15:50] we go into the permanent underclass and
+[15:52] blah blah blah not customer support not
+[15:55] it overall or programming whatever
+[15:57] everything is toast within a year or two
+[15:59] and just to put a little asterisk there
+[16:02] the toast means if you're not an
+[16:05] equipped person who's on the forefront
+[16:06] of AI and you're not gathering your
+[16:09] skills and you don't come to work with
+[16:11] your army of agents the 18year-old who
+[16:14] just studied Cloudbot and all of these
+[16:16] things and it just loaded up with skills
+[16:18] and stuff. It's going to absolutely
+[16:19] destroy you. So, there's going to be
+[16:23] people remaining within layers of the
+[16:24] company, but it's going to be like a
+[16:26] virus spreading like one cracked kid
+[16:28] coming with all of their agents,
+[16:29] replacing three engineers, and then just
+[16:31] moving up, moving up, moving up until
+[16:32] you don't need that many people to form
+[16:34] like your own business.
+[16:37] >> Yeah. Yeah. And I think we're starting
+[16:38] to see that on on, you know, we Amazon
+[16:41] today, I think, is laying off 15,000
+[16:43] employees. Pinterest, I think, just laid
+[16:46] off up to 15% of their employees. So,
+[16:50] uh, all within the name of, uh,
+[16:52] optimization and AI. So, I think, um,
+[16:56] the big companies even are realizing
+[16:57] like, hey, we can do a lot more with a
+[17:00] lot less. So, um, that's why I'm
+[17:02] interested in learning. like, you know,
+[17:04] I'm interested in learning cuz I'm
+[17:05] trying to be I want to be the most
+[17:07] productive person I could be.
+[17:08] >> Yes. Yeah. And I think Cloudbot is like
+[17:11] the
+[17:13] >> um the final unlock in this um glue,
+[17:16] let's call it. I don't know how to call
+[17:17] it, like the ultimate tool that can
+[17:20] speedrun the rest of your automations
+[17:22] and the rest of your learning skills,
+[17:23] whatever.
+[17:24] >> Anything else you wanted to show in
+[17:26] terms of use cases?
+[17:29] >> I [clears throat] mean, we just got
+[17:30] started. There's like 70 tabs left and
+[17:31] my voice is already gone.
+[17:33] Yeah, we can keep it shorter on on each
+[17:36] one of the topics um just so we can show
+[17:39] more stuff. So,
+[17:42] as I [clears throat] said from email
+[17:43] classification, I'm canceling my email
+[17:44] subscription because I don't need to
+[17:46] look at my email anymore. It's handled
+[17:48] by the bots. They're doing chron jobs.
+[17:49] They're doing whatever. I don't want to
+[17:50] look at my email. I want to interface
+[17:52] with my email through chat and I don't
+[17:54] ever want to look at it. Period. Um we
+[17:56] can wrap this one up or you want to ask
+[17:57] something about emails and stuff?
+[17:58] >> Yeah, let's wrap it up.
+[18:01] I want to do like lightning round like
+[18:02] boom boom. Let's do a lightning round.
+[18:06] [clears throat]
+[18:06] >> This one is a cool addition.
+[18:09] A lot of people haven't heard of this.
+[18:10] It's called anti-capture.com and you're
+[18:12] you're paying a small subscription. I
+[18:14] think you can start with $5 for human
+[18:16] workers. I don't know how ethical is
+[18:18] this. I don't condone it. I've tried it.
+[18:20] I haven't implemented it yet, but it
+[18:22] works behind the scenes. This exists for
+[18:24] years, by the way. when you want
+[18:25] automation, but the bots are stuck on
+[18:27] capture, there's a human somewhere which
+[18:29] is going to solve your capture for like
+[18:30] 0 point whatever dollars they're they're
+[18:32] paying them. So, as I said, I don't know
+[18:33] how ethical it is, but if you equip your
+[18:35] bot with this, it will basically never
+[18:37] get stuck in capture. Even though my
+[18:40] cloud bot surprised me yesterday, it was
+[18:42] booking a flight for me and it was like,
+[18:44] "Oh, what are these?" Oh, brooms. Cool.
+[18:45] I selected all the brooms and it just
+[18:46] moved on casually. You know, it wasn't
+[18:49] stuck on the capture at all. So, this
+[18:50] one is a is a cool service. Next one.
+[18:55] Yeah, let's do it.
+[18:56] >> Um, this is pretty cool and this is
+[18:58] going to be a thing. I don't know if
+[18:59] you've seen uh smart rings which are
+[19:01] coming out. Not fitness rings, but like
+[19:03] AI rings are coming out.
+[19:05] >> I actually haven't seen this.
+[19:07] >> Well, time to get people into another
+[19:09] rabbit hole. Um, cuz there's like three
+[19:12] there's a Kickstarter, there's like one
+[19:14] more company, and there's Pebble. I
+[19:16] don't know if you know what Pebble got
+[19:17] resurrected. The smartwatch company.
+[19:18] They're now issuing their own watch. Uh
+[19:20] it's like some ridiculous price like $60
+[19:23] or $70 or something like this. The only
+[19:25] problem is like it doesn't the battery
+[19:27] is not rechargeable and it's going to
+[19:28] die in like 5 years or whatever. But
+[19:30] probably all of us will so that's why it
+[19:32] won't matter. Um, it has a cool button
+[19:34] on it. And I think this paired with the
+[19:37] Ma glasses or this paired with your
+[19:39] AirPods and whatever is the missing
+[19:41] interface to like super hyper
+[19:42] productivity because as you can see in
+[19:45] the picture, he's intentionally wearing
+[19:46] it on this finger, which you have access
+[19:47] to all the time. And I usually do to-dos
+[19:51] and other stuff through my watch. So I
+[19:53] have this button on the Ultra set up to
+[19:55] go to Benji. And anytime I dictate
+[19:57] something, like Benji figures out
+[19:58] whether it's a to-do, whether it's a
+[20:00] habit and does something with it. Now,
+[20:02] it's going to be switched to Cloudbot,
+[20:03] but this basically has an API and it
+[20:05] just has a microphone. You say whatever,
+[20:07] a voice note, a memo, whatever, and they
+[20:09] store it in their phone app through
+[20:11] Bluetooth and then you have an API to
+[20:13] send it wherever you want, which is
+[20:14] going to be mental cuz you can use it to
+[20:17] from controlling your lights to talking
+[20:19] with your bot about customers and
+[20:22] whatever. Like, it's going to be the new
+[20:23] superpower for like creating magic from
+[20:25] your wrist. So, couple of months until
+[20:29] it arrives and then we're going to see
+[20:30] what's going on
+[20:31] >> and then we'll review it on the channel.
+[20:33] >> Yeah, absolutely. This is super cool.
+[20:36] >> Next up, this is cool. Um, and this was
+[20:40] self taught. This was one of the other
+[20:41] skills that Claude Claudebot learned uh
+[20:45] to C to make like you cannot cast HTML
+[20:49] dashboard to uh Google Home without a
+[20:52] lot of hacks and stuff. But it figured
+[20:54] out a workaround. It made the page,
+[20:56] screenshotted it as an image and just
+[20:58] casted the actual image on it. So now
+[21:01] anytime it needs to grab my attention or
+[21:02] whatever, it can actually cast to one of
+[21:05] my devices at home. And on the right, I
+[21:08] don't know if you know this device, it's
+[21:09] called terminal TRM, whatever they have
+[21:12] like a short name or something.
+[21:13] >> TRM NL.
+[21:15] >> Yeah, it's like a e- in device. It's
+[21:17] completely programmable. So of course,
+[21:18] Cloudbot just asked for my API token.
+[21:20] and I give it and now anytime it can
+[21:23] display things from my life OS from my
+[21:24] automations it can grab my attention it
+[21:26] can paint pictures it can do whatever so
+[21:29] this is like where I see this heading
+[21:31] like where I want to head with my smart
+[21:32] home which is not so smart right now is
+[21:35] I'm adding small presence sensors in all
+[21:38] of my rooms which detect the Apple Watch
+[21:40] and basically the Apple Watch knows in
+[21:42] which room you are at any given time and
+[21:44] it's instant like it it can even know
+[21:46] the difference whether I'm sitting on my
+[21:47] desk or whether I'm close to where the
+[21:49] sensor
+[21:50] And what I'm planning because home
+[21:52] assistant has access to all of this
+[21:53] info. Anytime I talk to Cloudbot, it's
+[21:56] going to get a small prompt injected
+[21:57] with my GPS location like whether I'm
+[21:59] home or away and my room. So when I'm in
+[22:02] a room and I say something to my ring or
+[22:04] whatever, it will know the context. Aha,
+[22:06] he's at home in the room. I know what
+[22:07] he's asking me to do. Which all of these
+[22:10] voice assistants are completely useless
+[22:12] when it comes to to that. They're just
+[22:13] like set a timer or whatever. Please
+[22:16] don't.
+[22:17] >> Yeah.
+[22:17] >> Yeah. So, so where all of this is going
+[22:19] is like I I see the home becoming part
+[22:22] of the smartness like TV's lighting up,
+[22:25] dashboards catching your attention
+[22:26] because you're missing you're late to a
+[22:28] meeting so your TV lights up with a red
+[22:30] image blinking like clockbot can run all
+[22:32] of that but until now we didn't have the
+[22:34] glue like how to how to make that work.
+[22:36] >> So So what you're saying basically is
+[22:38] this whole you know smartarthome concept
+[22:41] hasn't actually been that smart.
+[22:43] basically just been devices connected to
+[22:46] the internet and relying on humans to
+[22:48] actually pull the levers to do things.
+[22:50] What you're saying is basically
+[22:53] >> uh we're entering an era where the true
+[22:56] smart home will exist.
+[22:58] >> Absolutely.
+[22:58] >> And and the glue is going to be devices
+[23:02] like the Pebble Ring or whatever you
+[23:04] know our competitors.
+[23:06] >> Yeah.
+[23:07] >> And Cloudbot and and products like
+[23:09] Cloudbot.
+[23:11] There's going to be a huge split between
+[23:13] consumer AI and tinkerers. That's why I
+[23:16] formed the the Tinker Club. I hope we're
+[23:18] going to link it somewhere or something
+[23:19] or people can find it out. Like these
+[23:21] tinkerers, they want to glue together a
+[23:22] Pebble watch with their self-hosted home
+[23:25] assistant casted on their dashboard with
+[23:27] their weird headphones and CLI,
+[23:29] whatever.
+[23:30] >> And there's going to be most of
+[23:31] consumers who are just going to keep
+[23:33] iterating and using GPT whatever GP is
+[23:36] going to throw at them. like GP will
+[23:37] eventually classify your email and cloud
+[23:39] will eventually do your like whatever
+[23:41] they connect to Apple Health and
+[23:42] whatever. But I think these days with
+[23:45] cloudbot tinkerers saw this opportunity
+[23:47] like [ __ ] it. I want to run my own AI.
+[23:49] I'm going to spend 1020,000 at home buy
+[23:51] a beefy graphics cards whatever it's
+[23:54] needed to run um local AI. I'm going to
+[23:56] own my assistant. I'm going to own my
+[23:58] data and I don't want to rely on the
+[24:00] cloud or outages or nerfing the models
+[24:02] or whatever. So, there's going to be a
+[24:03] giant split and this will never hit the
+[24:05] mainstream to a point where my mom is
+[24:07] using Clawbot with her Pebble ring, you
+[24:10] know.
+[24:10] >> Totally. Let's do four more.
+[24:14] >> Four more.
+[24:17] Um, let's see what else we have. Yeah,
+[24:20] YouTube doesn't make you let you make
+[24:22] playlist from children's songs, which is
+[24:24] very stupid. So, we want to have a
+[24:25] playlist of all the songs my daughter is
+[24:27] listening to. YouTube cannot do it. So I
+[24:29] just told my cloudbot to install a skill
+[24:31] for downloading YouTube videos. Uh we
+[24:33] sent screenshots from Spotify from which
+[24:34] songs we playing to my daughter and from
+[24:36] YouTube music. It found them on YouTube,
+[24:38] downloaded all of them, connected to my
+[24:40] NAS, hosted them on Plex and now on
+[24:42] Plex, we have a nice playlist with
+[24:44] cleaned up names, titles, whatever with
+[24:46] all the songs that that are needed uh to
+[24:48] play to my daughter. So that one is
+[24:50] pretty cool. Here we showcase like you
+[24:52] can connect to your NAS, you can connect
+[24:53] to your home assistant, you can connect
+[24:55] to anything and just interface through
+[24:56] through chat. uh more pi hole like ad
+[25:01] blocking. Uh I was always like I'm a
+[25:03] tinkerer but I was always too lazy to
+[25:04] set this up. Now I just told this like
+[25:06] hey I have a spare mech studio laying
+[25:08] around. It's going to be plugged in all
+[25:10] all the time. How about you set up Pi
+[25:12] Hole and block ads on my entire network.
+[25:14] So, in a couple of iterations, we got
+[25:15] this and now all my devices, my wife's
+[25:18] device, whatever, like 92% of the ads
+[25:20] are going to be blocked and there's
+[25:22] going to be no no ads, which is this is
+[25:25] an example where someone who's like,
+[25:26] I've been tinkering with way weirder
+[25:28] stuff like I was just lazy to do certain
+[25:30] things, you know? I want to text and
+[25:32] create magic and that's it. Skill for
+[25:34] making a scaly draws. This
+[25:35] >> Oh, are you kidding me? I need this,
+[25:37] bro.
+[25:37] >> Yeah, escal
+[25:39] format for Excaliraw is JSON. So
+[25:42] basically you can tell it to make a JSON
+[25:44] file, host it on your own network,
+[25:46] expose it to the internet and open
+[25:48] Excaliraw with the JSON loaded. So it
+[25:51] just gives you a link if you teach it
+[25:52] right. It just gives you a link. You
+[25:54] click the link and you can iterate on
+[25:55] your Excali draw from your cloudbot
+[25:57] which is very nice.
+[25:59] >> Super nice.
+[26:00] >> Yeah, this is some of my [laughter]
+[26:03] architecture. helpful for your own
+[26:05] personal stuff, like getting ideas out.
+[26:07] Helpful for content,
+[26:09] >> like you want to like screenshot that,
+[26:11] throw it out to X, and also helpful if
+[26:13] you're doing like YouTube videos like
+[26:14] this and you want to share stuff.
+[26:16] >> I think this is the point where a lot of
+[26:18] people are going to break their monitor
+[26:19] and be like, "Oh, come on, guy." Cuz
+[26:21] yes, I took things too far with
+[26:23] Cloudbot. I gave it all of my bank
+[26:26] transactions since 2023. So I went to my
+[26:28] banks, manually exported the CSVs for
+[26:30] everything. And I was like, what cool
+[26:32] things can I do with all of my banking
+[26:34] data? So first of all, I did the classic
+[26:36] find my subscriptions, biggest cost,
+[26:37] blah blah blah. But then I'm like, I'm
+[26:39] spending a lot on the dentist. Can you
+[26:40] like find all my emails from the dentist
+[26:42] and find all my bank transactions from
+[26:44] the dentist and make me like a visual in
+[26:47] my life like from which tooth are we
+[26:50] working on next, what have I paid for,
+[26:52] where do I have implants, and match the
+[26:54] prices. So it did this crazy UI not on
+[26:56] the first try and now I can see what's
+[26:59] upcoming next. If I ever go to a dentist
+[27:01] in another country I can just open my
+[27:02] life west and be like oh this is what I
+[27:04] have done cuz it pulls from my all of my
+[27:07] data. This is absolutely insane.
+[27:09] >> What am I looking at right now?
+[27:11] >> Um I'm making this like I made it when
+[27:13] GPT came out. Now I'm remaking it. It's
+[27:15] called Spellbook. It's basically like a
+[27:17] market. It's not a marketplace yet but
+[27:19] it's a place for prompts with a twist.
+[27:22] And the twist is for example you can see
+[27:24] some of like I'll try to keep most of my
+[27:27] prompts public for example I have my
+[27:29] prompts for codebased to marketing
+[27:30] material for a landing page or uh
+[27:33] codebased marketing to a to a landing
+[27:35] page. Uh the cool thing and how is it
+[27:37] different than other thing is like you
+[27:39] have these variables here. So when
+[27:40] someone tries to use the prom for
+[27:42] example this they'll get a nice UI. So
+[27:44] let's say I give you my prom for making
+[27:46] swift apps. Instead of you changing
+[27:48] stuff from here, you can actually go
+[27:50] here and say the purpose of the app is
+[27:52] we're creating I don't know like a sleep
+[27:54] tracker. The name is sleepy. Do we want
+[27:56] licensing or not? Do we want to show it
+[27:58] in the tray? Do we want to show it in
+[28:00] the dock? We can say like in the dock
+[28:01] it's configurable. And do we want
+[28:03] onboarding? So now the doc is the prompt
+[28:06] is ready and I can copy it in chatd,
+[28:08] copy it in cloud or just copy it and
+[28:09] just dump it in whatever app I'm using.
+[28:14] So it's like a snippets prompt
+[28:16] organizer. It has a desktop app. You can
+[28:17] invoke it with a shortcut and it's very
+[28:20] useful both in coding both in
+[28:23] >> any AI workflow nowadays. You need your
+[28:25] prompts to invoke them. Type in
+[28:27] variables, press enter. It's completely
+[28:29] free. Um you can sign up and you can
+[28:31] check it out for for free.
+[28:35] >> I think it will be useful. I think uh I
+[28:37] think we're out of time, but dude,
+[28:39] you're everything I dreamed of and more,
+[28:42] you know, like when I'm reading your
+[28:44] tweets, I I can feel the the manic ADHD
+[28:48] vibes.
+[28:49] >> And I love that. I I I love it. Um
+[28:52] because I feel like you're learning in
+[28:53] real time and you're just like sharing
+[28:55] like no filter. Um so for me, this this
+[28:59] pod exceeded expectations.
+[29:01] >> Uh and I really appreciate it. could
+[29:05] say, um, I'm going to include places
+[29:08] for,
+[29:09] uh, where people can follow you in the
+[29:11] show notes, in the description. Um, some
+[29:13] of your projects. Um, is there anything
+[29:16] [clears throat] else you want to leave
+[29:16] people with? Um, last thing I want to
+[29:19] leave people with is like, if you don't
+[29:22] open your mind right now to everything
+[29:24] that's happening, just because you're
+[29:26] skeptical about it and you push it away,
+[29:28] it doesn't mean that this revolution
+[29:30] won't happen. This year will be
+[29:32] absolutely crazy. People are complaining
+[29:34] in my DMs, how do I cope with it? How do
+[29:35] I this? How do I that? The only ways to
+[29:38] embrace it, to embrace the speed and
+[29:40] know that LLMs won't be uninvented.
+[29:42] We're never going to go back. The bubble
+[29:44] is not going to pop. It's only going to
+[29:46] go faster and faster. And the listen to
+[29:48] Greg's podcast like educate yourself.
+[29:51] The more skilled you are, the bigger the
+[29:52] chances you're going to be employed,
+[29:53] make money, and whatever. You can cut it
+[29:56] out if you want, but we made this
+[29:57] tinkerer club, which is like for ADHD
+[29:59] people like me. It already filled with
+[30:01] couple hundred people. There's like
+[30:03] there's too much noise everywhere. Like
+[30:05] Twitter is too noisy. The Clawbot
+[30:06] Discord is too noisy. I wanted one tight
+[30:08] community where we discuss all of these
+[30:10] things. So if you ever want to join
+[30:11] that, you can. Maybe we can even give
+[30:13] some discount code through your podcast
+[30:15] or whatever. And my DMs are open. If you
+[30:17] ever need like help or questions about
+[30:19] anything, you can also ask me there
+[30:21] >> 100%. And I re I totally recommend
+[30:24] following you. Um, we'll include the
+[30:26] link to Tinkerers Club for people
+[30:28] interested in the in the description.
+[30:30] And, uh, if you want more content like
+[30:33] this in your feed, um, go ahead and
+[30:35] like, comment, and subscribe. Um, and,
+[30:40] uh, I'll keep, uh, I'll keep sharing
+[30:42] sharing interesting people. Bring them
+[30:44] on the pod if you keep enjoying it. So,
+[30:46] thanks again, Kitsay, for coming on to
+[30:49] the podcast, for being a legend, for
+[30:51] tinkering like there is no tomorrow, and
+[30:54] uh for sharing a lot of sauce. Thank you
+[30:55] so much.
+[30:56] >> Thank you for having me, man. I
+[30:57] appreciate it.
